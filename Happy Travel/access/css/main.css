@@ -3,30 +3,44 @@ body {
     background-repeat: no-repeat;
     background-size: stretch;
 }
-.balk_left {
-    left: 6vw;
+.nav_bar {
     display: flex;
     border: 2px solid green;
     float: left;
-    height: 6vw;
+    height: 8vw;
     width: 100%;
 }
-.div1, .div2 {
-    border-radius: 100%;
-    height: 6vw;
-    width: 6vw;
-    background-color: aqua;
+.div1, .div2 { /*Button 1 + Button 2*/
+    display: flex;
+    border-radius: 3%;
+    height: 3vw;
+    width: 12vw;
+    background-color: rgb(43, 49, 43);
+    justify-content: center;
+    align-items: center;
 }
 .div2 {
     background-color: blue;
+    margin-left: 10px;
 }
-@media only screen and (max-width: 960px)  {
-    .balk_left {
-        display: flex;
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8vw;
+    text-shadow: 2px;
+}
+@media only screen and (max-width: 640px)  { /* Mobile bg*/
+    .nav_bar {
         flex-direction: column;
-        border: 2px solid green;
         float: none;
         height: 100%;
-        width: 6vw;
-    }   
+        width: 8vw;
+    }
+    body {
+        background-image: url("../img/bg_main/tropical_island_7_mobile_vga_-wallpaper-640x480.jpg");
+    }
+    .div2 {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
 }
