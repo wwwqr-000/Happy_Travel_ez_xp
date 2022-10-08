@@ -1,12 +1,10 @@
-img {
-    max-width: 100%;
-}
 body {
-    background-image: url("../img/bg.png");
+    background-image: url("../img/bg_main/tropical_island_7-wallpaper-1920x1080.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: stretch;
 }
 .balk_left {
+    left: 6vw;
     display: flex;
     border: 2px solid green;
     float: left;
