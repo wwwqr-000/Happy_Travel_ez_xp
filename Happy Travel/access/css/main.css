@@ -13,27 +13,27 @@ body {
     align-items: center;
 }
 .div1, .div2, .div3 { /* Nav Div's */
+    color: white;
     margin-left: 10px;
     margin-left: 10px;
     display: flex;
     border-radius: 3%;
     height: 3vw;
     width: 12vw;
-    background-color: rgb(29, 49, 233);
+    background-color: rgb(0, 26, 255);
     justify-content: center;
     align-items: center;
 }
 .div2 {
-    background-color: blue;
+    background-color: rgb(0, 0, 204);
     margin-left: 10px;
 }
 .div3 {
-    background-color: rgb(248, 224, 4);
+    background-color: rgb(0, 0, 153);
     margin-left: 10px;
 }
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
-    color: white;
     font-size: 1.8vw;
     text-shadow: 2px;
 }
