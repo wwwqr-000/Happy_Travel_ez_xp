@@ -1,0 +1,34 @@
+img {
+    max-width: 100%;
+}
+body {
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.balk_left {
+    display: flex;
+    border: 2px solid green;
+    float: left;
+    height: 6vw;
+    width: 100%;
+}
+.div1, .div2 {
+    border-radius: 100%;
+    height: 6vw;
+    width: 6vw;
+    background-color: aqua;
+}
+.div2 {
+    background-color: blue;
+}
+@media only screen and (max-width: 960px)  {
+    .balk_left {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid green;
+        float: none;
+        height: 100%;
+        width: 6vw;
+    }   
+}
