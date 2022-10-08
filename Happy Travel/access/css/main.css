@@ -38,6 +38,9 @@ a:link, a:visited, a:hover, a:active {
     text-shadow: 2px;
 }
 @media only screen and (max-width: 640px)  { /* Mobile UI*/
+    body {
+        background-image: url("../img/bg_main/tropical_island_7_mobile_vga_-wallpaper-640x480.jpg");
+    }
     .nav_bar {
         flex-direction: column;
         float: none;
@@ -45,9 +48,6 @@ a:link, a:visited, a:hover, a:active {
         width: 12vw;
         justify-content: start;
         align-items: flex-end;
-    }
-    body {
-        background-image: url("../img/bg_main/tropical_island_7_mobile_vga_-wallpaper-640x480.jpg");
     }
     .div1, .div2, .div3 {
         margin-left: 0px;
