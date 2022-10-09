@@ -3,7 +3,7 @@
 Home-page + Contact ---------------------------------------------------------------------------------------------------------------------------------------------
 
 */
-body {
+.body_home {
     background-image: url("../img/bg_main/tropical_island_7-wallpaper-1920x1080.jpg");
     background-size: cover;
     background-size: auto;
@@ -75,7 +75,7 @@ a:link, a:visited, a:hover, a:active {
     align-items: center;
 }
 @media only screen and (max-width: 1024px)  { /* -------------------- Mobile UI Home-page + Contact --------------------------------------------------------------------------------*/
-    body {
+    .body_home {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1280x720.jpg");
     }
     .nav_bar {
@@ -104,37 +104,37 @@ a:link, a:visited, a:hover, a:active {
     }
 }
 @media only screen and (min-width: 1280px) {
-    body {
+    .body_home {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1280x720.jpg");
     }
 }
 @media only screen and (min-width: 1366px) {
-    body {
+    .body_home {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1366x768.jpg");
     }
 }
 @media only screen and (min-width: 1600px) {
-    body {
+    .body_home {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1600x900.jpg");
     }
 }
 @media only screen and (min-width: 1920px) {
-    body {
+    .body_home {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1920x1080.jpg");
     }
 }
 @media only screen and (min-width: 2048px) {
-    body {
+    .body_home {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2048x1152.jpg");
     }
 }
 @media only screen and (min-width: 2400px) {
-    body {
+    .body_home {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2400x1350.jpg");
     }
 }
 @media only screen and (min-width: 2560px) {
-    body {
+    .body_home {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2560x1440.jpg");
     }
 }
