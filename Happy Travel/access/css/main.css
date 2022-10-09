@@ -1,7 +1,11 @@
+/* 
+
+Home-page + Contact ---------------------------------------------------------------------------------------------------------------------------------------------
+
+*/
 body {
     background-image: url("../img/bg_main/tropical_island_7-wallpaper-1920x1080.jpg");
-    background-repeat: no-repeat;
-    background-size: stretch;
+    background-size: auto;
 }
 p {
     text-align: center;
@@ -49,21 +53,37 @@ a:link, a:visited, a:hover, a:active {
 .div1:hover, .div2:hover, .div3.hover, a:hover {
     background-color: rgba(74, 74, 255, 0.863);
 }
-@media only screen and (max-width: 640px)  { /* Mobile UI*/
+.footer {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    background-color: rgba(255, 0, 0, 0.616);
+    color: white;
+    text-align: center;
+    justify-content: right;
+    align-items: center;
+}
+@media only screen and (max-width: 640px)  { /* -------------------- Mobile UI Home-page --------------------------------------------------------------------------------*/
     body {
         background-image: url("../img/bg_main/tropical_island_7_mobile_vga_-wallpaper-640x480.jpg");
     }
     .nav_bar {
         flex-direction: column;
         float: none;
-        height: 40vw;
+        height: 100%;
         width: 15vw;
         justify-content: start;
         align-items: flex-end;
     }
-    .div1, .div2, .div3 {
+    .div1, .div2, .div3, .div4 {
         margin-left: 0px;
         margin-top: 10px;
         margin-right: 1.5vw;
+    }
+    .div4 {
+        margin-bottom: 10px;
     }
 }
