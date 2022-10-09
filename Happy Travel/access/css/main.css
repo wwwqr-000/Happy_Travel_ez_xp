@@ -5,7 +5,10 @@ Home-page + Contact ------------------------------------------------------------
 */
 body {
     background-image: url("../img/bg_main/tropical_island_7-wallpaper-1920x1080.jpg");
+    background-size: cover;
     background-size: auto;
+    max-width: 100%;
+    background-repeat: no-repeat;
 }
 p {
     text-align: center;
@@ -71,9 +74,9 @@ a:link, a:visited, a:hover, a:active {
     justify-content: right;
     align-items: center;
 }
-@media only screen and (max-width: 640px)  { /* -------------------- Mobile UI Home-page + Contact --------------------------------------------------------------------------------*/
+@media only screen and (max-width: 1024px)  { /* -------------------- Mobile UI Home-page + Contact --------------------------------------------------------------------------------*/
     body {
-        background-image: url("../img/bg_main/tropical_island_7_mobile_vga_-wallpaper-320x240.jpg");
+        background-image: url("../img/bg_main/tropical_island_7-wallpaper-1280x720.jpg");
     }
     .nav_bar {
         margin-top: -6.5%;
@@ -98,5 +101,40 @@ a:link, a:visited, a:hover, a:active {
     }
     .top_title {
         font-size: 25px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    body {
+        background-image: url("../img/bg_main/tropical_island_7-wallpaper-1280x720.jpg");
+    }
+}
+@media only screen and (min-width: 1366px) {
+    body {
+        background-image: url("../img/bg_main/tropical_island_7-wallpaper-1366x768.jpg");
+    }
+}
+@media only screen and (min-width: 1600px) {
+    body {
+        background-image: url("../img/bg_main/tropical_island_7-wallpaper-1600x900.jpg");
+    }
+}
+@media only screen and (min-width: 1920px) {
+    body {
+        background-image: url("../img/bg_main/tropical_island_7-wallpaper-1920x1080.jpg");
+    }
+}
+@media only screen and (min-width: 2048px) {
+    body {
+        background-image: url("../img/bg_main/tropical_island_7-wallpaper-2048x1152.jpg");
+    }
+}
+@media only screen and (min-width: 2400px) {
+    body {
+        background-image: url("../img/bg_main/tropical_island_7-wallpaper-2400x1350.jpg");
+    }
+}
+@media only screen and (min-width: 2560px) {
+    body {
+        background-image: url("../img/bg_main/tropical_island_7-wallpaper-2560x1440.jpg");
     }
 }
