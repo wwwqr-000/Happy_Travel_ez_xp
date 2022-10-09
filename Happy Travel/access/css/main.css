@@ -73,7 +73,7 @@ a:link, a:visited, a:hover, a:active {
 }
 @media only screen and (max-width: 640px)  { /* -------------------- Mobile UI Home-page + Contact --------------------------------------------------------------------------------*/
     body {
-        background-image: url("../img/bg_main/tropical_island_7_mobile_vga_-wallpaper-640x480.jpg");
+        background-image: url("../img/bg_main/tropical_island_7_mobile_vga_-wallpaper-320x240.jpg");
     }
     .nav_bar {
         margin-top: -6.5%;
