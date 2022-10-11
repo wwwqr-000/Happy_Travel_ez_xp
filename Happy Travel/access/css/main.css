@@ -1,7 +1,5 @@
 /* 
-
 Home-page + Contact ---------------------------------------------------------------------------------------------------------------------------------------------
-
 */
 .body_home {
     background-image: url("../img/bg_main/tropical_island_7-wallpaper-1920x1080.jpg");
@@ -105,8 +103,7 @@ a:link, a:visited, a:hover, a:active {
         font-size: 25px;
     }
 }
-/* Height detection (Mobile) */
-@media (min-height: 800px) {
+@media (min-height: 800px) { /* stokbrood detection */
     .body_home {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1217x1999.jpg");
     }
