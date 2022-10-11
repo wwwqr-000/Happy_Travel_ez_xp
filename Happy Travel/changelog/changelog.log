@@ -1,0 +1,22 @@
+Pages: 	
+	Home:
+		title-pc: Y
+		nav-pc: Y
+		mini-content-pc: W.I.P
+		form-email-pc: N
+		title-mob.: N
+		nav-mob.: N
+		mini-content-mob.: N
+		form-email-mob.: N
+		
+		
+
+
+Screen~Compatable:
+			Pages:
+				Home: Y
+				Last Minute: N
+				Verre Reisen: N
+				Tickets: N
+				Contact: W.I.P
+				Zonvakanties: N
