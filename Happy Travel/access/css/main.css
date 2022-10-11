@@ -1,6 +1,7 @@
 /* 
 Home-page + Contact ---------------------------------------------------------------------------------------------------------------------------------------------
 */
+html, body {height: 100%;}
 .body_home {
     background-image: url("../img/bg_main/tropical_island_7-wallpaper-1920x1080.jpg");
     background-size: cover;
