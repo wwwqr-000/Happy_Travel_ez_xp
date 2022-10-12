@@ -75,6 +75,9 @@ a:link, a:visited, a:hover, a:active {
 .mini_content_txt_medium {
     font-size: 1.1vw;
 }
+.contact_lnk {
+    color: white;
+}
 .footer {
     display: flex;
     position: fixed;
