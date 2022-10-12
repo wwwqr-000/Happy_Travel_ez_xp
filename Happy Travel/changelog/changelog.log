@@ -2,12 +2,10 @@ Pages:
 	Home:
 		title-pc: Y
 		nav-pc: Y
-		mini-content-pc: W.I.P
-		form-email-pc: N
+		mini-content-pc: Y
 		title-mob.: N
 		nav-mob.: N
 		mini-content-mob.: N
-		form-email-mob.: N
 		
 		
 
@@ -18,5 +16,5 @@ Screen~Compatable:
 				Last Minute: N
 				Verre Reisen: N
 				Tickets: N
-				Contact: W.I.P
+				Contact: N
 				Zonvakanties: N
