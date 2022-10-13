@@ -93,17 +93,20 @@ a:link, a:visited, a:hover, a:active {
     margin-bottom: 2vw;
     justify-content: space-around;
 }
-.thumb1, .thumb2 {
+.thumb1, .thumb2, .thumb3, .thumb4 {
     filter: opacity(90%);
     background-image: url("../img/img/thumb1.jpg");
     background-size: 110%;
     width: 30vw;
     height: 18vw;
 }
+.thumb3, .thumb4 {
+    display: none;
+}
 .mini_img_txt_home {
     background-color: rgba(0, 0, 0, 0.336);
 }
-.thumb2 {
+.thumb2, .thumb4 {
     width: 30vw;
     height: 18vw;
     background-size: 110%;
@@ -121,6 +124,7 @@ a:link, a:visited, a:hover, a:active {
     text-align: center;
     justify-content: right;
     align-items: center;
+    z-index: 1;
 }
 .contact_lnk:hover {
     background-color: rgba(255, 255, 255, 0);
@@ -130,7 +134,7 @@ a:link, a:visited, a:hover, a:active {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1366x768.jpg");
     }
     .nav_bar { /* Nav frame */
-        margin-top: -6.5%;
+        margin-top: 1%;
         flex-direction: column;
         float: none;
         height: 70vw;
@@ -146,17 +150,16 @@ a:link, a:visited, a:hover, a:active {
         margin-right: 12.5%;
         font-size: 2.5vw;
     }
-    .div4 {
-        margin-bottom: 10px;
-    }
     .div5 {
+        margin-bottom: 10px;
         font-size: 1.9vw;
     }
     .mini_content { /* main content (txt) for home page */
-        margin-top: -17vw;
+        margin-top: -74%;
         height: 30vw;
         width: 70%;
         float: right;
+        margin-right: 3%;
     }
     .mini_content_txt_big {
         font-size: 4vw;
@@ -164,11 +167,31 @@ a:link, a:visited, a:hover, a:active {
     .mini_content_txt_medium {
         font-size: 2.6vw;
     }
-    img {
-        float: left;
+    .imgs_home {
+        margin-top: -33%;
+        height: 30vw;
+        width: 70%;
+        float: right;
+        margin-right: 3%;
+    }
+    .thumb1, .thumb2 {
+        display: none;
+    }
+    .thumb3, .thumb4 {
+        width: 46vw;
+        height: 27vw;
+        display: flex;
+    }
+    .thumb_mobile {
+        display: flex;
+        width: 97.4%;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        justify-content: space-around;
     }
     .footer { /* Footer for home page */
         font-size: 12px;
+        height: 5%;
     }
     .top_title {
         font-size: 25px; /* head title for home page */
