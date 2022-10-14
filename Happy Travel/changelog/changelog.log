@@ -3,10 +3,12 @@ Pages:
 		title-pc: Y
 		nav-pc: Y
 		mini-content-pc: Y
-		title-mob.: N
-		nav-mob.: N
-		mini-content-mob.: N
-		
+		title-mob.: Y
+		nav-mob.: Y
+		mini-content-mob.: Y
+	
+	Last Minute:
+			
 		
 
 
