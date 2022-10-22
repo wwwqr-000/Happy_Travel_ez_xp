@@ -131,7 +131,20 @@ a:link, a:visited, a:hover, a:active {
 .contact_lnk:hover {
     background-color: rgba(255, 255, 255, 0);
 }
-@media only screen and (max-width: 767px)  { /* Mobile UI Home-page */
+
+/* Stedentrips-Page */
+
+.p_ss {
+    color: white;
+    border: 2px solid green;
+}
+
+/* Mobile UI'S */
+
+@media only screen and (max-width: 767px)  {
+
+    /* Home-Mobile */
+
     .body_home {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1366x768.jpg");
     }
@@ -197,13 +210,19 @@ a:link, a:visited, a:hover, a:active {
     .top_title {
         font-size: 25px; /* head title for home page */
     }
+
+    /* Stedentrips-Mobile */
+    
+    .body_ss {
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-1366x768.jpg");
+    }
 }
 @media (min-height: 800px) { /* stokbrood detection */
     .body_home {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1217x1999.jpg");
     }
     .body_ss {
-        background-image: url("");
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-1217x1999.jpg");
     }
 }
 /* lasagna detection */
@@ -278,17 +297,4 @@ a:link, a:visited, a:hover, a:active {
     .body_ss {
         background-image: url("");
     }
-}
-
-
-
-
-/* Stedentrips */
-
-
-
-
-.p_ss {
-    color: white;
-    border: 2px solid green;
 }
