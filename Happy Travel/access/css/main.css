@@ -212,7 +212,7 @@ a:link, a:visited, a:hover, a:active {
     }
 
     /* Stedentrips-Mobile */
-    
+
     .body_ss {
         background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-1366x768.jpg");
     }
@@ -231,7 +231,7 @@ a:link, a:visited, a:hover, a:active {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1366x768.jpg");
     }
     .body_ss {
-        background-image: url("");
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-1366x768.jpg");
     }
 }
 @media only screen and (min-width: 1366px) {
@@ -239,7 +239,7 @@ a:link, a:visited, a:hover, a:active {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1600x900.jpg");
     }
     .body_ss {
-        background-image: url("");
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-1600x900.jpg");
     }
 }
 @media only screen and (min-width: 1600px) {
@@ -247,7 +247,7 @@ a:link, a:visited, a:hover, a:active {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1920x1080.jpg");
     }
     .body_ss {
-        background-image: url("");
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-1920x1080.jpg");
     }
 }
 @media only screen and (min-width: 1920px) {
@@ -255,7 +255,7 @@ a:link, a:visited, a:hover, a:active {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2048x1152.jpg");
     }
     .body_ss {
-        background-image: url("");
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-2048x1152.jpg");
     }
 }
 @media only screen and (min-width: 2048px) {
@@ -263,7 +263,7 @@ a:link, a:visited, a:hover, a:active {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2400x1350.jpg");
     }
     .body_ss {
-        background-image: url("");
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-2400x1350.jpg");
     }
 }
 @media only screen and (min-height: 900px) {
@@ -271,7 +271,7 @@ a:link, a:visited, a:hover, a:active {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2400x1350.jpg");
     }
     .body_ss {
-        background-image: url("");
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-2400x1350.jpg");
     }
 }
 @media only screen and (min-width: 2400px) {
@@ -279,7 +279,7 @@ a:link, a:visited, a:hover, a:active {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2560x1440.jpg");
     }
     .body_ss {
-        background-image: url("");
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-2560x1440.jpg");
     }
 }
 @media only screen and (min-width: 2560px) {
@@ -287,7 +287,7 @@ a:link, a:visited, a:hover, a:active {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2560x1440.jpg");
     }
     .body_ss {
-        background-image: url("");
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-2560x1440.jpg");
     }
 }
 @media (min-width: 2400px) {
@@ -295,6 +295,6 @@ a:link, a:visited, a:hover, a:active {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-6400x2400.jpg");
     }
     .body_ss {
-        background-image: url("");
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-5120x3200.jpg");
     }
 }
