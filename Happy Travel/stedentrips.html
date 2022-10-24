@@ -1,12 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html id="Stedentrips">
     <head>
         <title>Stedentrips</title>
-        <link rel="stylesheet" href="access/css/main.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="access/css/main.css"> <!-- externe css -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"> <!-- Head title font -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- screen support -->
         <link rel="shortcut icon" href="access/img/favicon.ico">
+        <script>
+            function Barcelona() {
+                document.getElementById("mini_content_ss").innerHTML = "Barcelona is een zonnige stad met veel inwoners. Geniet van het mooie weer, of cruse lekker met een boot door het water! Er valt ook genoeg te shoppen en te ontdekken! Dit is Barcelona. (Gidswandeling inbegrepen)";
+            }
+            function Maastricht() {
+                document.getElementById("mini_content_ss").innerHTML = "Maastricht is lid!";
+            }
+            function Londen() {
+                document.getElementById("mini_content_ss").innerHTML = "Londen is lid!";
+            }
+        </script>
     </head>
     <body class="body_ss">
-        <p class="p_ss">r</p>
+        <p class="p_ss">Stedentrips</p>
+        <div class="nav_bar"> <!--Nav bar-->
+            <a href="https://google.com" target="_self" class="div1">Zonvakanties</a>
+            <a href="https://google.com" target="_self" class="div2">Verre reizen</a>
+            <a href="https://google.com" target="_self" class="div3">Tickets</a>
+            <a href="https://google.com" target="_self" class="div4">Last minute</a>
+            <a href="stedentrips.html" target="_self" class="div5">Stedentrips</a>
+            <a href="index.html" target="_self" class="div6">Home</a>
+        </div>
+        <div class="ss_imgs">
+            <div class="ss_thumb1" title="Maastricht" onclick="Maastricht()"></div>
+            <div class="ss_thumb2" title="Barcelona" onclick="Barcelona()"></div>
+            <div class="ss_thumb3" title="Londen" onclick="Londen()"></div>
+        </div>
+        <div class="main_content_ss">
+            <div class="main_content_ss_1"></div>
+            <div class="main_content_ss_2"><p id="mini_content_ss">Klik op de afbeeldingen om u te laten informeren over de trips!</p></div>
+            <div class="main_content_ss_3"></div>
+        </div>
     </body>
 </html>
