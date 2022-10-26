@@ -3,20 +3,10 @@
     <head>
         <title>Stedentrips</title>
         <link rel="stylesheet" href="access/css/main.css"> <!-- externe css -->
+        <script src="access/js/main.js"></script> <!-- externe js -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"> <!-- Head title font -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- screen support -->
         <link rel="shortcut icon" href="access/img/favicon.ico">
-        <script>
-            function Barcelona() {
-                document.getElementById("mini_content_ss").innerHTML = "Barcelona ligt in Spanje en is een zonnige stad met veel inwoners. Geniet van het mooie weer, of cruse lekker met een boot door het water! Er valt ook genoeg te shoppen en te ontdekken! Dit is Barcelona. (Gidswandeling inbegrepen)";
-            }
-            function Maastricht() {
-                document.getElementById("mini_content_ss").innerHTML = "Maastricht ligt in Nederland en is een vrolijke en gezellige stad. Je kan er veel winkels bezoeken en er zijn vele activiteiten in de buurt, zoals de 'Grotten' van Valkenburg. Verder zijn er vele wandelroutes te belopen. Dit is Maastricht (Exclusief Gidswandeling)";
-            }
-            function Londen() {
-                document.getElementById("mini_content_ss").innerHTML = "Londen ligt in 'The UK' en is een drukke en bekende stad. Londen heeft veel geschiedenis en er valt daar van alles te beleven";
-            }
-        </script>
     </head>
     <body class="body_ss">
         <p class="p_ss">Stedentrips</p>
@@ -34,9 +24,12 @@
             <div class="ss_thumb3" title="Londen" onclick="Londen()"></div>
         </div>
         <div class="main_content_ss">
-            <div class="main_content_ss_1"></div>
-            <div class="main_content_ss_2"><p id="mini_content_ss">Klik op de afbeeldingen om u te laten informeren over de stedentrips!</p></div>
-            <div class="main_content_ss_3"></div>
+            <div id="main_content_ss_1" title="Curacao" onclick="Curacao()"></div>
+            <div class="main_content_ss_2"><p id="mini_content_ss">Klik op de afbeeldingen om u te laten informeren over de stedentrips! Heeft u iets leuks gezien? ga dan snel naar "Tickets"</p></div>
+            <div id="main_content_ss_3" title="NewYork" onclick="NY()"></div>
+        </div>
+        <div class="footer"> <!-- Footer -->
+            <p>Voor vragen of suggesties, klik <a href="#contact" class="contact_lnk">"hier!"&nbsp&nbsp</a></p>
         </div>
     </body>
 </html>
