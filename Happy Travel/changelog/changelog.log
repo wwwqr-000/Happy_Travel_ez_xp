@@ -9,14 +9,26 @@ Pages:
 				mini-content-mob.: Y
 	
 	Stedentrips:
-				title-pc: N
-				nav + active button-pc: N
-				3 x img + content-pc: N
-				background-pc: W.I.P
-				title-mob.: N
-				nav + active button-mob.: N
-				3 x img + content-mob.: N
-				background-mob.: N
+				title-pc: Y
+				nav + active button-pc: Y
+				3 x img + content-pc: Y
+				background-pc: Y
+				title-mob.: Y
+				nav + active button-mob.: Y
+				3 x img + content-mob.: Y
+				background-mob.: Y
+	
+	Contact:		
+				title-pc:
+				nav-pc:
+				userinput-pc:
+				mailto-pc:
+				background-pc:
+				title-mob.:
+				nav-mob.:
+				userinput-mob.:
+				mailto-mob.:
+				background-mob.:
 		
 
 
@@ -27,4 +39,5 @@ Screen~Compatable:
 				Verre Reisen: N
 				Tickets: N
 				Contact: N
+				Stedentrips: Y
 				Zonvakanties: N
