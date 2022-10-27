@@ -1,2 +1,2 @@
 # Happy_Travel_ez_xp
-Crazy website im making rn
+Crazy website Im making rn
