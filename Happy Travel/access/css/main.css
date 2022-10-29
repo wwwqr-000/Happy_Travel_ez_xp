@@ -71,7 +71,7 @@ a:link, a:visited, a:hover, a:active {
     justify-content: center;
     align-items: center;
 }
-.mini_content, .thumb_txt, .mini_img_txt_home, .main_content_ss_2, .mini_content_ss_mobile_box { /* Background-color text fields */
+.mini_content, .thumb_txt, .mini_img_txt_home, .main_content_ss_2, .mini_content_ss_mobile_box, .contact_field { /* Background-color text fields */
     background-color: rgba(0, 0, 0, 0.336);
 }
 .ss_imgs_mobile {
@@ -194,6 +194,19 @@ a:link, a:visited, a:hover, a:active {
 .C_body {
     margin: 0px;
 }
+.contact_field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    bottom: 0%;
+    margin-bottom: 0%;
+    margin-top: 12vw;
+}
+.field_font {
+    color: white;
+    font-size: 1vw;
+}
 
 /* Mobile UI'S */
 
@@ -213,7 +226,7 @@ a:link, a:visited, a:hover, a:active {
         align-items: flex-end;
         justify-content: space-evenly;
     }
-    #Home .div1, .div2, .div3, .div4, .div5, .div6, #Stedentrips .div1, .div2, .div3, .div4, .div5, .div6 { /* Nav button's */
+    #Home .div1, .div2, .div3, .div4, .div5, .div6, #Stedentrips .div1, .div2, .div3, .div4, .div5, .div6, #Contact .div1, .div2, .div3, .div4, .div5, .div6 { /* Nav button's */
         height: 6vw;
         width: 15vw;
         margin-left: 0px;
