@@ -1,2 +1,2 @@
-# Happy_Travel_ez_xp
+# Happy_Travel
 School project website
