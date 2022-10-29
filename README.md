@@ -1,2 +1,2 @@
-# Happy_Travel
+# Happy Travel
 School project website
