@@ -34,7 +34,7 @@ p {
     background-color: rgba(245, 245, 245, 0.4);
     margin-bottom: 1.69%;
 }
-.div1, #Home .div2, .div3, .div4, .div5, .div6, #Stedentrips .div1, .div2, .div3, .div4, .div6 { /* Nav Div's + page control */
+.div1, #Home .div1, .div2, .div3, .div4, .div5, .div6, #Stedentrips .div1, .div2, .div3, .div4, .div6 { /* Nav Div's + page control */
     display: flex;
     color: white;
     text-shadow: 3px 3px 3px black;
@@ -323,9 +323,13 @@ a:link, a:visited, a:hover, a:active {
         bottom: 20vw;
         left: 0px;
     }
+    /* Contact-mobile */
+    .field_font {
+        font-size: 2vw;
+    }
 }
 @media (min-height: 800px) { /* stokbrood detection */
-    .body_home, .C_body {
+    .body_home, #Contact .C_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1217x1999.jpg");
     }
     .body_ss {
@@ -334,7 +338,7 @@ a:link, a:visited, a:hover, a:active {
 }
 /* lasagna detection */
 @media only screen and (min-width: 1280px) {
-    .body_home, .C_body {
+    .body_home, #Contact .C_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1366x768.jpg");
     }
     .body_ss {
@@ -342,7 +346,7 @@ a:link, a:visited, a:hover, a:active {
     }
 }
 @media only screen and (min-width: 1366px) {
-    .body_home, .C_body {
+    .body_home, #Contact .C_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1600x900.jpg");
     }
     .body_ss {
@@ -350,7 +354,7 @@ a:link, a:visited, a:hover, a:active {
     }
 }
 @media only screen and (min-width: 1600px) {
-    .body_home, .C_body {
+    .body_home, #Contact .C_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1920x1080.jpg");
     }
     .body_ss {
@@ -358,7 +362,7 @@ a:link, a:visited, a:hover, a:active {
     }
 }
 @media only screen and (min-width: 1920px) {
-    .body_home, .C_body {
+    .body_home, #Contact .C_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2048x1152.jpg");
     }
     .body_ss {
@@ -366,7 +370,7 @@ a:link, a:visited, a:hover, a:active {
     }
 }
 @media only screen and (min-width: 2048px) {
-    .body_home, .C_body {
+    .body_home, #Contact .C_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2400x1350.jpg");
     }
     .body_ss {
@@ -374,7 +378,7 @@ a:link, a:visited, a:hover, a:active {
     }
 }
 @media only screen and (min-height: 900px) {
-    .body_home, .C_body {
+    .body_home, #Contact .C_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2400x1350.jpg");
     }
     .body_ss {
@@ -382,7 +386,7 @@ a:link, a:visited, a:hover, a:active {
     }
 }
 @media only screen and (min-width: 2400px) {
-    .body_home, .C_body {
+    .body_home, #Contact .C_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2560x1440.jpg");
     }
     .body_ss {
@@ -390,7 +394,7 @@ a:link, a:visited, a:hover, a:active {
     }
 }
 @media only screen and (min-width: 2560px) {
-    .body_home, .C_body {
+    .body_home, #Contact .C_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2560x1440.jpg");
     }
     .body_ss {
@@ -398,7 +402,7 @@ a:link, a:visited, a:hover, a:active {
     }
 }
 @media (min-width: 2400px) {
-    .body_home, .C_body {
+    .body_home, #Contact .C_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-6400x2400.jpg");
     }
     .body_ss {

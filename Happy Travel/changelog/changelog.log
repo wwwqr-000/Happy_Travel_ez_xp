@@ -19,11 +19,11 @@ Pages:
 				background-mob.: Y
 	
 	Contact:		
-				title-pc:
-				nav-pc:
-				userinput-pc:
-				mailto-pc:
-				background-pc:
+				title-pc: Y
+				nav-pc: Y
+				userinput-pc: Y
+				mailto-pc: Y
+				background-pc: Y
 				title-mob.:
 				nav-mob.:
 				userinput-mob.:
