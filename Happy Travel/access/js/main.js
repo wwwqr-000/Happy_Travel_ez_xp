@@ -23,3 +23,27 @@ function NY() {
     document.getElementById("mini_content_ss").innerHTML = var1;
     document.getElementById("mini_content_ss_mobile").innerHTML = var1;
 }
+function invalid_character() {
+    alert("Input is not supported/valid! Page will reload.");
+    verzending();
+}
+function verzending() {
+    alert("Bent u een robot of mens? Klik op 'Ok' om verder te gaan.");
+    var var1 = 25;
+    var userinputvar2 = prompt("Wat is 5 x 5?");
+    if(userinputvar2 === null) {
+        invalid_character();
+    }
+    if(userinputvar2.includes("<")) {
+        invalid_character();
+    }
+    else if(userinputvar2.includes(">")) {
+        invalid_character();
+    }
+    else if (userinputvar2 == "25") {
+        alert("U bent een mens!")
+    }
+    else {
+        invalid_character();
+    }
+}

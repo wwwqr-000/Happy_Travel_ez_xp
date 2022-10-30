@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html id="Contact">
+<html id="Home">
     <head>
         <title>Happy Travel - Contact</title>
-        <link rel="stylesheet" href="access/css/main.css"> <!-- externe css -->
-        <script src="access/js/main.js"></script> <!-- externe js -->
-        <link rel="short icon" href="access/img/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Relative friendly -->
+        <link rel="stylesheet" href="access/css/main.css"> <!-- Extern css bestand -->
+        <script src="access/js/main.js"></script> <!-- Extern js bestand -->
+        <link rel="shortcut icon" href="access/img/favicon.ico"> <!-- Favicon -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"> <!-- Head title font -->
     </head>
     <body class="C_body">
         <p class="top_title">Contact</p>
@@ -32,9 +34,9 @@
                     <br>
                     <p class="field_font">* Suggestie:</p><textarea rows="10" cols="25" name="suggestie" required></textarea>
                     <br>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;<input type="submit" value="Verzenden">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;<input onclick="verzending()" type="submit" value="Verzenden">
+                    <br>
                 </form>
             </div>
-        </div>
     </body>
 </html>
