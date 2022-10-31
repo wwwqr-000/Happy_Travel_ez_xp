@@ -24,11 +24,11 @@ Pages:
 				userinput-pc: Y
 				mailto-pc: Y
 				background-pc: Y
-				title-mob.:
-				nav-mob.:
-				userinput-mob.:
-				mailto-mob.:
-				background-mob.:
+				title-mob.: Y
+				nav-mob.: Y
+				userinput-mob.: Y
+				mailto-mob.: Y
+				background-mob.: Y
 		
 
 
@@ -38,6 +38,16 @@ Screen~Compatable:
 				Last Minute: N
 				Verre Reisen: N
 				Tickets: N
-				Contact: N
+				Contact: Y
 				Stedentrips: Y
 				Zonvakanties: N
+
+Done:
+	Pages:
+		Home: Y
+		Last Minute: N
+		Verre Reisen: N
+		Tickets: N
+		Contact: Y
+		Stedentrips: Y
+		Zonvakanties: N

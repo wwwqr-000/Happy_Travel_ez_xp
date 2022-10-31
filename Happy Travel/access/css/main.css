@@ -162,7 +162,7 @@ a:link, a:visited, a:hover, a:active {
     height: 20vw;
     background-size: 110%;
 }
-.ss_thumb1:hover, .ss_thumb2:hover, .ss_thumb3:hover, #main_content_ss_1:hover, #main_content_ss_3:hover, .ss_img_Maastricht:hover, .ss_img_Barcelona:hover, .ss_img_Londen:hover, .ss_img_Curacao:hover, .ss_img_NY:hover {
+.ss_thumb1:hover, .ss_thumb2:hover, .ss_thumb3:hover, #main_content_ss_1:hover, #main_content_ss_3:hover, .ss_img_Maastricht:hover, .ss_img_Barcelona:hover, .ss_img_Londen:hover, .ss_img_Curacao:hover, .ss_img_NY:hover, .txt1_lm:hover, .txt2_lm:hover, .img1_lm:hover, .img3_lm:hover, .img4_lm:hover, .img5_lm:hover {
     border: 2px solid black;
 }
 .ss_thumb1, .ss_img_Maastricht {
@@ -229,14 +229,29 @@ a:link, a:visited, a:hover, a:active {
 }
 .txt1_lm, .txt2_lm, .img1_lm, .img2_lm, .img3_lm, .img4_lm, .img5_lm {
     margin-top: 2vw;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 .img5_lm, .img4_lm {
     margin-bottom: 2vw;
 }
-.img1_lm {
+.img1_lm { /* Parijs */
     background-image: url("../img/img/paris.png");
     background-size: 101%;
+}
+.txt1_lm { /* Colombia */
+    background-image: url("../img/img/colombia.png");
+}
+.txt2_lm {
+    background-image: url("../img/img/zwitserland.png");
+    background-size: 119%;
+}
+.img2_lm {
+    border-radius: 100%;
+    background-color: rgba(128, 128, 128, 0.795);
+}
+.img3_lm {
+    background-image: url("../img/img/alpen.png");
+    background-size: 129%;
 }
 
 /* Mobile UI'S */
@@ -317,7 +332,7 @@ a:link, a:visited, a:hover, a:active {
         font-size: 5.5vw;
     }
     .body_ss {
-        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-1366x768.jpg");
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-1217x1999.jpg");
     }
     .ss_imgs, .main_content_ss {
         display: none;
