@@ -34,7 +34,7 @@ p {
     background-color: rgba(245, 245, 245, 0.4);
     margin-bottom: 1.69%;
 }
-.div1, #Home .div1, .div2, .div3, .div4, .div5, .div6, #Stedentrips .div1, .div2, .div3, .div4, .div6 { /* Nav Div's + page control */
+.div1, #Home .div1, .div2, .div3, .div4, .div5, .div6, #Stedentrips .div1, .div2, .div3, .div4, .div6, #last_minute .div1, .div2, .div3, .div4, .div5, .div6 { /* Nav Div's + page control */
     display: flex;
     color: white;
     text-shadow: 3px 3px 3px black;
@@ -61,7 +61,7 @@ p {
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
- #Home a:hover, #Stedentrips a:hover, #Contact a:hover {
+ #Home a:hover, #Stedentrips a:hover, #Contact a:hover, #last_minute a:hover {
     background-color: rgba(74, 74, 255, 0.863);
 }
 .mini_content { /* Mini Content */
@@ -71,7 +71,7 @@ a:link, a:visited, a:hover, a:active {
     justify-content: center;
     align-items: center;
 }
-.mini_content, .thumb_txt, .mini_img_txt_home, .main_content_ss_2, .mini_content_ss_mobile_box, .contact_field { /* Background-color text fields */
+.mini_content, .thumb_txt, .mini_img_txt_home, .main_content_ss_2, .mini_content_ss_mobile_box, .contact_field, .flex1_lm, .flex2_lm, .flex3_lm { /* Background-color text fields */
     background-color: rgba(0, 0, 0, 0.336);
 }
 .ss_imgs_mobile {
@@ -124,7 +124,7 @@ a:link, a:visited, a:hover, a:active {
     align-items: center;
     z-index: 1;
 }
-#Home .contact_lnk:hover, #Stedentrips .contact_lnk:hover {
+#Home .contact_lnk:hover, #Stedentrips .contact_lnk:hover, #last_minute .contact_lnk:hover {
     background-color: rgba(255, 255, 255, 0);
 }
 
@@ -156,7 +156,7 @@ a:link, a:visited, a:hover, a:active {
 .main_content_ss {
     height: 19vw;
 }
-.ss_thumb1, .ss_thumb2, .ss_thumb3, #main_content_ss_1, .main_content_ss_2, #main_content_ss_3 {
+.ss_thumb1, .ss_thumb2, .ss_thumb3, #main_content_ss_1, .main_content_ss_2, #main_content_ss_3, .txt1_lm, .txt2_lm, .img1_lm, .img2_lm, .img3_lm, .img3_lm, .img4_lm, .img5_lm {
     opacity: 95%;
     width: 30vw;
     height: 20vw;
@@ -209,6 +209,36 @@ a:link, a:visited, a:hover, a:active {
     font-size: 1vw;
 }
 
+/* Last_minute-page */
+
+#last_minute .div4 {
+    display: none;
+}
+.flex1_lm, .flex2_lm, .flex3_lm {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex1_lm {
+    margin-top: 10vw;
+    top: 100vw;
+}
+#body_lm {
+    margin: 0%;
+    background-size: 160%;
+}
+.txt1_lm, .txt2_lm, .img1_lm, .img2_lm, .img3_lm, .img4_lm, .img5_lm {
+    margin-top: 2vw;
+    border: 2px solid green;
+}
+.img5_lm, .img4_lm {
+    margin-bottom: 2vw;
+}
+.img1_lm {
+    background-image: url("../img/img/paris.png");
+    background-size: 101%;
+}
+
 /* Mobile UI'S */
 
 @media only screen and (max-width: 767px)  {
@@ -227,7 +257,7 @@ a:link, a:visited, a:hover, a:active {
         align-items: flex-end;
         justify-content: space-evenly;
     }
-    #Home .div1, .div2, .div3, .div4, .div5, .div6, #Stedentrips .div1, .div2, .div3, .div4, .div5, .div6, #Contact .div1, .div2, .div3, .div4, .div5, .div6 { /* Nav button's */
+    #Home .div1, .div2, .div3, .div4, .div5, .div6, #Stedentrips .div1, .div2, .div3, .div4, .div5, .div6, #Contact .div1, .div2, .div3, .div5, .div6, #last_minute .div1 { /* Nav button's */
         height: 6vw;
         width: 15vw;
         margin-left: 0px;

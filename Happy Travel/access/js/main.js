@@ -34,10 +34,10 @@ function verzending() {
     if(userinputvar2 === null) {
         invalid_character();
     }
-    if(userinputvar2.includes("<")) {
+    if(userinputvar2.includes("<")) { /* executie preventie */
         invalid_character();
     }
-    else if(userinputvar2.includes(">")) {
+    else if(userinputvar2.includes(">")) { /* executie preventie */
         invalid_character();
     }
     else if (userinputvar2 == "25") {
