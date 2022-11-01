@@ -48,10 +48,18 @@ function verzending() {
     }
 }
 function Colombia() {
-    var1 = "(Deze reis is beschikbaar tot morgen om 12:30) Colombia is een ideal land om drugs te dealen! (Ft. Pablo) Verder is Colombia een mooi en zonnig land om je vakantie te vieren! Er zijn veel verschillende culturen in Colombia en daardoor valt er veel te beleven. Dis is Colombia!";
+    var1 = "(Deze reis is beschikbaar tot morgen om 12:30) 'Colombia is een ideale stad om drugs te dealen!' ~ (Ft. Pablo) Verder is Colombia een mooi en zonnige stad om je vakantie te vieren! Er zijn veel verschillende culturen in Colombia en daardoor valt er veel te beleven. Ga naar tickets om uw last minute ticket te halen! Dis is Colombia!";
     document.getElementById("main_txt_lm").innerHTML = var1;
 }
 function Zwitserland() {
-    var1 = "(Deze reis is beschikbaar tot vrijdag om 14:15) Zwitserland is een moai loan emm!";
+    var1 = "(Deze reis is beschikbaar tot vrijdag om 14:15) Zwitserland staat voral bekent om zijn wintersport tourisme. Je kan er in de winter skien, snowboarden en langlaufen. Ga naar tickets om uw last minute ticket te halen! Dit is Zwitserland!";
+    document.getElementById("main_txt_lm").innerHTML = var1;
+}
+function Parijs() {
+    var1 = "(Deze reis is beschikbaar tot dinsdag om 23:19) Parijs is een van de bekenste locaties van heel Europa! De stad ligt in Frankrijk en staat voornamelijk bekent om de eifeltoren! Ga naar tickets om uw last minute tickets te halen! Dit is Parijs!";
+    document.getElementById("main_txt_lm").innerHTML = var1;
+}
+function Alpen() {
+    var1 = "(Deze reis is beschikbaar tot woensdag om 9:00) De Alpen is een prachtig berggebied in Europa! Je kan er allerlei winteractiviteiten doen, op een terrasje gaan zitten, een Westereenequipment kopen, enz. Er valt genoeg te beleven. Ga naar tickets om uw last minute tickets te halen! Dit zijn de Alpen!";
     document.getElementById("main_txt_lm").innerHTML = var1;
 }
