@@ -229,6 +229,10 @@ a:link, a:visited, a:hover, a:active {
 }
 .txt1_lm, .txt2_lm, .img1_lm, .img2_lm, .img3_lm, .img4_lm, .img5_lm {
     margin-top: 2vw;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
     /* border: 2px solid green; */
 }
 .img5_lm, .img4_lm {
@@ -246,12 +250,24 @@ a:link, a:visited, a:hover, a:active {
     background-size: 119%;
 }
 .img2_lm {
-    border-radius: 100%;
     background-color: rgba(128, 128, 128, 0.795);
+    box-shadow: 2px 2px 2px black;
 }
 .img3_lm {
     background-image: url("../img/img/alpen.png");
     background-size: 129%;
+}
+.img4_lm {
+    background-image: url("../img/img/lapalma.png");
+}
+.img5_lm {
+    background-image: url("../img/img/cyprus.png");
+    background-size: 120%;
+}
+#main_txt_lm {
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.3vw;
 }
 
 /* Mobile UI'S */

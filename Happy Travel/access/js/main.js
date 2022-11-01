@@ -24,7 +24,7 @@ function NY() {
     document.getElementById("mini_content_ss_mobile").innerHTML = var1;
 }
 function invalid_character() {
-    alert("Input is not supported/valid! Page will reload.");
+    alert("Gegevens zijn niet juist! Pagina zal herladen...");
     verzending();
 }
 function verzending() {
@@ -41,9 +41,17 @@ function verzending() {
         invalid_character();
     }
     else if (userinputvar2 == "25") {
-        alert("U bent een mens!")
+        alert("U bent een mens!");
     }
     else {
         invalid_character();
     }
+}
+function Colombia() {
+    var1 = "(Deze reis is beschikbaar tot morgen om 12:30) Colombia is een ideal land om drugs te dealen! (Ft. Pablo) Verder is Colombia een mooi en zonnig land om je vakantie te vieren! Er zijn veel verschillende culturen in Colombia en daardoor valt er veel te beleven. Dis is Colombia!";
+    document.getElementById("main_txt_lm").innerHTML = var1;
+}
+function Zwitserland() {
+    var1 = "(Deze reis is beschikbaar tot vrijdag om 14:15) Zwitserland is een moai loan emm!";
+    document.getElementById("main_txt_lm").innerHTML = var1;
 }
