@@ -48,15 +48,15 @@ function verzending() {
     }
 }
 function Colombia() {
-    var1 = "(Deze reis is beschikbaar tot morgen om 12:30) 'Colombia is een ideale stad om drugs te dealen!' ~ (Ft. Pablo) Verder is Colombia een mooi en zonnige stad om je vakantie te vieren! Er zijn veel verschillende culturen in Colombia en daardoor valt er veel te beleven. Ga naar tickets om uw last minute ticket te halen! Dit is Colombia!";
+    var1 = "(Deze reis is beschikbaar tot morgen om 12:30) 'Colombia is een ideale stad om drugs te dealen!' ~ (Ft. Pablo) Verder is Colombia een mooi en zonnige stad om je vakantie te vieren! Er zijn veel verschillende culturen in Colombia en daardoor valt er veel te beleven. Al vanaf &euro;321. Ga naar tickets om uw last minute ticket te halen! Dit is Colombia!";
     document.getElementById("main_txt_lm").innerHTML = var1;
 }
 function Zwitserland() {
-    var1 = "(Deze reis is beschikbaar tot vrijdag om 14:15) Zwitserland staat voral bekent om zijn wintersport tourisme. Je kan er in de winter skien, snowboarden en langlaufen. Ga naar tickets om uw last minute ticket te halen! Dit is Zwitserland!";
+    var1 = "(Deze reis is beschikbaar tot vrijdag om 14:15) Zwitserland staat voral bekent om zijn wintersport tourisme. Je kan er in de winter skien, snowboarden en langlaufen. Al vanaf &euro;240. Ga naar tickets om uw last minute ticket te halen! Dit is Zwitserland!";
     document.getElementById("main_txt_lm").innerHTML = var1;
 }
 function Parijs() {
-    var1 = "(Deze reis is beschikbaar tot dinsdag om 23:19) Parijs is een van de bekenste locaties van heel Europa! De stad ligt in Frankrijk en staat voornamelijk bekent om de eifeltoren! Ga naar tickets om uw last minute tickets te halen! Dit is Parijs!";
+    var1 = "(Deze reis is beschikbaar tot dinsdag om 23:19) Parijs is een van de bekenste locaties van heel Europa! De stad ligt in Frankrijk en staat voornamelijk bekent om de eifeltoren! Al vanaf &euro;410. Ga naar tickets om uw last minute tickets te halen! Dit is Parijs!";
     document.getElementById("main_txt_lm").innerHTML = var1;
 }
 function Alpen() {
@@ -64,7 +64,7 @@ function Alpen() {
     document.getElementById("main_txt_lm").innerHTML = var1;
 }
 function Lapalma() {
-    var1 = "(Deze reis is beschikbaar tot woensdag om 14:25) Lapalma is een zonnig eiland in Spanje. Je hebt er veel tourisme en het eiland heeft zelft zijn eigen cultuur. Ook heeft het eiland een bijzondere natuur. Zo zijn er planten en dieren die ergens anders zeldzaam zijn. Ga naar tickets om uw last minute tickets te halen! Dit is Lapalma!";
+    var1 = "(Deze reis is beschikbaar tot woensdag om 14:25) Lapalma is een zonnig eiland in Spanje. Je hebt er veel tourisme en het eiland heeft zelft zijn eigen cultuur. Ook heeft het eiland een bijzondere natuur. Zo zijn er planten en dieren die ergens anders zeldzaam zijn. Al vanaf &euro;320. Ga naar tickets om uw last minute tickets te halen! Dit is Lapalma!";
     document.getElementById("main_txt_lm").innerHTML = var1;
 }
 function Cyprus() {

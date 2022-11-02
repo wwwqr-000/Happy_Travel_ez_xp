@@ -16,13 +16,20 @@
 p {
     text-align: center;
 }
-.top_title, .mid_title {
+.top_title, .mid_title, .small_title {
     font-family: Titillium Web, serif;
     font-size: 30px;
     font-weight: 210;
     color: white;
     text-shadow: 2px 2px 2px black;
     margin-bottom: 0.4vw;
+}
+.mid_title, .small_title {
+    font-size: 28px;
+    font-family: sans-serif;
+}
+.small_title {
+    font-size: 20px;
 }
 .nav_bar {
     display: flex;
@@ -35,7 +42,7 @@ p {
     background-color: rgba(245, 245, 245, 0.4);
     margin-bottom: 1.69%;
 }
-.div1, #Home .div1, .div2, .div3, .div4, .div5, .div6, #Stedentrips .div1, .div2, .div3, .div4, .div6, #last_minute .div1, .div2, .div3, .div4, .div5, .div6, #Tickets .div1, .div2, .div4, .div5, .div6 { /* Nav Div's + page control */
+.div1, #Home .div1, .div2, .div3, .div4, .div5, .div6, #Stedentrips .div1, .div2, .div3, .div4, .div6, #last_minute .div1, .div2, .div3, .div4, .div5, .div6, #Tickets .div1, .div2, .div4, .div5, .div6, #Verre_reizen .div1, .div3, .div4, .div5, .div6 { /* Nav Div's + page control */
     display: flex;
     color: white;
     text-shadow: 3px 3px 3px black;
@@ -62,7 +69,7 @@ p {
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
- #Home a:hover, #Stedentrips a:hover, #Contact a:hover, #last_minute a:hover, #Tickets a:hover {
+ #Home a:hover, #Stedentrips a:hover, #Contact a:hover, #last_minute a:hover, #Tickets a:hover, #Verre_reizen a:hover {
     background-color: rgba(74, 74, 255, 0.863);
 }
 .mini_content { /* Mini Content */
@@ -72,15 +79,16 @@ a:link, a:visited, a:hover, a:active {
     justify-content: center;
     align-items: center;
 }
-.mini_content, .thumb_txt, .mini_img_txt_home, .main_content_ss_2, .mini_content_ss_mobile_box, .contact_field, .flex1_lm, .flex2_lm, .flex3_lm, .Tc_imgs { /* Background-color text fields */
+.mini_content, .thumb_txt, .mini_img_txt_home, .main_content_ss_2, .mini_content_ss_mobile_box, .contact_field, .flex1_lm, .flex2_lm, .flex3_lm, .Tc_imgs, .Tc_imgs_2, .Tc_end_div { /* Background-color text fields */
     background-color: rgba(0, 0, 0, 0.336);
 }
-.ss_imgs_mobile {
+.ss_imgs_mobile, #Verre_reizen .contact_lnk:hover {
     background-color: rgba(0, 0, 0, 0);
 }
 .mini_content_txt_big, .mini_content_txt_medium, #mini_content_ss {
     font-size: 1.6vw;
     color: whitesmoke;
+    text-shadow: 3px 3px 3px black;
     font-family: sans-serif;
 }
 .mini_content_txt_medium {
@@ -163,7 +171,7 @@ a:link, a:visited, a:hover, a:active {
     height: 20vw;
     background-size: 110%;
 }
-.ss_thumb1:hover, .ss_thumb2:hover, .ss_thumb3:hover, #main_content_ss_1:hover, #main_content_ss_3:hover, .ss_img_Maastricht:hover, .ss_img_Barcelona:hover, .ss_img_Londen:hover, .ss_img_Curacao:hover, .ss_img_NY:hover, .txt1_lm:hover, .txt2_lm:hover, .img1_lm:hover, .img3_lm:hover, .img4_lm:hover, .img5_lm:hover, .Tc_img_1:hover, .Tc_img_2:hover, .Tc_img_3:hover, .Tc_img_4:hover, .Tc_img_5:hover, .Tc_img_5:hover {
+.ss_thumb1:hover, .ss_thumb2:hover, .ss_thumb3:hover, #main_content_ss_1:hover, #main_content_ss_3:hover, .ss_img_Maastricht:hover, .ss_img_Barcelona:hover, .ss_img_Londen:hover, .ss_img_Curacao:hover, .ss_img_NY:hover, .txt1_lm:hover, .txt2_lm:hover, .img1_lm:hover, .img3_lm:hover, .img4_lm:hover, .img5_lm:hover, .Tc_img_1:hover, .Tc_img_2:hover, .Tc_img_3:hover, .Tc_img_4:hover, .Tc_img_5:hover, .Tc_img_5:hover, .Tc_img_6:hover, .Tc_img_7:hover, .Tc_img_8:hover {
     border: 2px solid black;
 }
 .ss_thumb1, .ss_img_Maastricht {
@@ -278,6 +286,9 @@ a:link, a:visited, a:hover, a:active {
 #Tickets .div3 {
     display: none;
 }
+#Tc_titles_1 {
+    margin-bottom: -4vw;
+}
 .Tc_imgs, .Tc_imgs_2 {
     margin-top: 11vw;
     display: flex;
@@ -287,8 +298,9 @@ a:link, a:visited, a:hover, a:active {
     border-bottom-right-radius: 1.5vw;
     border-top-right-radius: 1.5vw;
     border-top-left-radius: 1.5vw;
+    margin-top: 4vw;
 }
-.Tc_img_1, .Tc_img_2, .Tc_img_3, .Tc_img_4, .Tc_img_5, .Tc_img_5, .Tc_img_6, .Tc_img_7, .Tc_img_8 {
+.Tc_img_1, .Tc_img_2, .Tc_img_3, .Tc_img_4, .Tc_img_5, .Tc_img_5, .Tc_img_6, .Tc_img_7, .Tc_img_8, .Tc_img_9, .Tc_img_10, .Tc_img_11 {
     margin-top: 1vw;
     margin-bottom: 1vw;
     background-size: 100%;
@@ -309,12 +321,31 @@ a:link, a:visited, a:hover, a:active {
     background-image: url("../img/img/curacao.png");
 }
 .Tc_img_5 {
-    background-image: url("../img/img/alpen.png");
+    background-image: url("../img/img/NY.png");
 }
 .Tc_img_6 {
-    background-image: url("../");
+    background-image: url("../img/img/colombia.png");
+}
+.Tc_end_div {
+    margin-top: 22vw;
+    width: 100%;
+    height: 50vw;
+    border-bottom-left-radius: 1.5vw;
+    border-bottom-right-radius: 1.5vw;
+    border-top-right-radius: 1.5vw;
+    border-top-left-radius: 1.5vw;
 }
 
+/* Verre Reizen - page */
+
+#Verre_reizen .div2 {
+    display: none;
+}
+.Vr_imgs {
+    display: flex;
+    width: 100%;
+    height: 30vw;
+}
 /* Mobile UI'S */
 
 @media only screen and (max-width: 767px)  {
