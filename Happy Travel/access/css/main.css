@@ -79,7 +79,7 @@ a:link, a:visited, a:hover, a:active {
     justify-content: center;
     align-items: center;
 }
-.mini_content, .thumb_txt, .mini_img_txt_home, .main_content_ss_2, .mini_content_ss_mobile_box, .contact_field, .flex1_lm, .flex2_lm, .flex3_lm, .Tc_imgs, .Tc_imgs_2, .Tc_end_div { /* Background-color text fields */
+.mini_content, .thumb_txt, .mini_img_txt_home, .main_content_ss_2, .mini_content_ss_mobile_box, .contact_field, .flex1_lm, .flex2_lm, .flex3_lm, .Tc_imgs, .Tc_imgs_2, .Tc_end_div, .Vr_txt { /* Background-color text fields */
     background-color: rgba(0, 0, 0, 0.336);
 }
 .ss_imgs_mobile, #Verre_reizen .contact_lnk:hover {
@@ -171,7 +171,7 @@ a:link, a:visited, a:hover, a:active {
     height: 20vw;
     background-size: 110%;
 }
-.ss_thumb1:hover, .ss_thumb2:hover, .ss_thumb3:hover, #main_content_ss_1:hover, #main_content_ss_3:hover, .ss_img_Maastricht:hover, .ss_img_Barcelona:hover, .ss_img_Londen:hover, .ss_img_Curacao:hover, .ss_img_NY:hover, .txt1_lm:hover, .txt2_lm:hover, .img1_lm:hover, .img3_lm:hover, .img4_lm:hover, .img5_lm:hover, .Tc_img_1:hover, .Tc_img_2:hover, .Tc_img_3:hover, .Tc_img_4:hover, .Tc_img_5:hover, .Tc_img_5:hover, .Tc_img_6:hover, .Tc_img_7:hover, .Tc_img_8:hover {
+.ss_thumb1:hover, .ss_thumb2:hover, .ss_thumb3:hover, #main_content_ss_1:hover, #main_content_ss_3:hover, .ss_img_Maastricht:hover, .ss_img_Barcelona:hover, .ss_img_Londen:hover, .ss_img_Curacao:hover, .ss_img_NY:hover, .txt1_lm:hover, .txt2_lm:hover, .img1_lm:hover, .img3_lm:hover, .img4_lm:hover, .img5_lm:hover, .Tc_img_1:hover, .Tc_img_2:hover, .Tc_img_3:hover, .Tc_img_4:hover, .Tc_img_5:hover, .Tc_img_5:hover, .Tc_img_6:hover, .Tc_img_7:hover, .Tc_img_8:hover, .Vr_img_1:hover, .Vr_img_2:hover, .Vr_img_3:hover {
     border: 2px solid black;
 }
 .ss_thumb1, .ss_img_Maastricht {
@@ -240,12 +240,14 @@ a:link, a:visited, a:hover, a:active {
     margin: 0%;
     background-size: 160%;
 }
-.txt1_lm, .txt2_lm, .img1_lm, .img2_lm, .img3_lm, .img4_lm, .img5_lm, .Tc_txt {
-    margin-top: 2vw;
+.txt1_lm, .txt2_lm, .img1_lm, .img2_lm, .img3_lm, .img4_lm, .img5_lm, .Tc_txt, .Vr_txt {
     border-top-left-radius: 2vw;
     border-top-right-radius: 2vw;
     border-bottom-left-radius: 2vw;
     border-bottom-right-radius: 2vw;
+}
+.txt1_lm, .txt2_lm, .img1_lm, .img2_lm, .img3_lm, .img4_lm, .img5_lm, .Tc_txt {
+    margin-top: 2vw;
 }
 .img5_lm, .img4_lm {
     margin-bottom: 2vw;
@@ -341,11 +343,37 @@ a:link, a:visited, a:hover, a:active {
 #Verre_reizen .div2 {
     display: none;
 }
-.Vr_imgs {
+.Vr_imgs, .Vr_txt_display {
     display: flex;
     width: 100%;
     height: 30vw;
+    justify-content: space-around;
+    align-items: center;
 }
+.Vr_txt_display {
+    height: 10vw;
+}
+.Vr_img_1, .Vr_img_2, .Vr_img_3, .Vr_txt {
+    background-size: 100%;
+    height: 20vw;
+    width: 30vw;
+}
+.Vr_img_1 {
+    background-image: url("../img/img/india.png");
+}
+.Vr_img_2 {
+    background-image: url("../img/img/japan.png");
+    background-size: 101%;
+}
+.Vr_img_3 {
+    background-image: url("../img/img/nieuw_zeeland.png");
+}
+.Vr_txt {
+    margin-top: -6vw;
+    height: 10vw;
+    width: 60vw;
+}
+
 /* Mobile UI'S */
 
 @media only screen and (max-width: 767px)  {
