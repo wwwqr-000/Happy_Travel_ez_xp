@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+.p_ss { /* head title */
+    border: 2px solid green;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: rgba(39, 39, 39, 0.829);
+    font-size: 2.5vw;
+}
+
+/* screens */
+
+@media only screen and (max-width: 767px) {
+    .body_ss {
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-1217x1999.jpg");
+    }
+}
+
+@media only screen and (min-height: 800px) { /* stokbrood detection */
+    .body_ss {
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-1217x1999.jpg");
+    }
+}
+/* lasagna detection */
+@media only screen and (min-width: 1280px) {
+    .body_ss {
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-1366x768.jpg");
+    }
+}
+@media only screen and (min-width: 1366px) {
+    .body_ss {
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-1600x900.jpg");
+    }
+}
+@media only screen and (min-width: 1600px) {
+    .body_ss {
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-1920x1080.jpg");
+    }
+}
+@media only screen and (min-width: 1920px) {
+    .body_ss {
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-2048x1152.jpg");
+    }
+}
+@media only screen and (min-width: 2048px) {
+    .body_ss {
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-2400x1350.jpg");
+    }
+}
+@media only screen and (min-height: 900px) {
+    .body_ss {
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-2400x1350.jpg");
+    }
+}
+@media only screen and (min-width: 2400px) {
+    .body_ss {
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-2560x1440.jpg");
+    }
+}
+@media only screen and (min-width: 2560px) {
+    .body_ss {
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-2560x1440.jpg");
+    }
+}
+@media only screen and (min-width: 2400px) {
+    .body_ss {
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-5120x3200.jpg");
+    }
+}

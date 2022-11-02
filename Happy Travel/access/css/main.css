@@ -1,11 +1,12 @@
 /* Home-page */
 * {
     box-sizing: border-box;
+    /* border: 2px solid green; */
 }
 ::selection {
     background-color: rgba(88, 146, 255, 0.719);
 }
-.body_home, .body_ss, #Contact body, .C_body {
+.body_home, .body_ss, #Contact body, .C_body, #Tickets {
     background-image: url("../img/bg_main/tropical_island_7-wallpaper-1920x1080.jpg");
     background-size: cover;
     background-size: auto;
@@ -34,7 +35,7 @@ p {
     background-color: rgba(245, 245, 245, 0.4);
     margin-bottom: 1.69%;
 }
-.div1, #Home .div1, .div2, .div3, .div4, .div5, .div6, #Stedentrips .div1, .div2, .div3, .div4, .div6, #last_minute .div1, .div2, .div3, .div4, .div5, .div6 { /* Nav Div's + page control */
+.div1, #Home .div1, .div2, .div3, .div4, .div5, .div6, #Stedentrips .div1, .div2, .div3, .div4, .div6, #last_minute .div1, .div2, .div3, .div4, .div5, .div6, #Tickets .div1, .div2, .div4, .div5, .div6 { /* Nav Div's + page control */
     display: flex;
     color: white;
     text-shadow: 3px 3px 3px black;
@@ -61,7 +62,7 @@ p {
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
- #Home a:hover, #Stedentrips a:hover, #Contact a:hover, #last_minute a:hover {
+ #Home a:hover, #Stedentrips a:hover, #Contact a:hover, #last_minute a:hover, #Tickets a:hover {
     background-color: rgba(74, 74, 255, 0.863);
 }
 .mini_content { /* Mini Content */
@@ -71,7 +72,7 @@ a:link, a:visited, a:hover, a:active {
     justify-content: center;
     align-items: center;
 }
-.mini_content, .thumb_txt, .mini_img_txt_home, .main_content_ss_2, .mini_content_ss_mobile_box, .contact_field, .flex1_lm, .flex2_lm, .flex3_lm { /* Background-color text fields */
+.mini_content, .thumb_txt, .mini_img_txt_home, .main_content_ss_2, .mini_content_ss_mobile_box, .contact_field, .flex1_lm, .flex2_lm, .flex3_lm, .Tc_txt { /* Background-color text fields */
     background-color: rgba(0, 0, 0, 0.336);
 }
 .ss_imgs_mobile {
@@ -227,7 +228,7 @@ a:link, a:visited, a:hover, a:active {
     margin: 0%;
     background-size: 160%;
 }
-.txt1_lm, .txt2_lm, .img1_lm, .img2_lm, .img3_lm, .img4_lm, .img5_lm {
+.txt1_lm, .txt2_lm, .img1_lm, .img2_lm, .img3_lm, .img4_lm, .img5_lm, .Tc_txt {
     margin-top: 2vw;
     border-top-left-radius: 2vw;
     border-top-right-radius: 2vw;
@@ -264,10 +265,47 @@ a:link, a:visited, a:hover, a:active {
     background-image: url("../img/img/cyprus.png");
     background-size: 120%;
 }
-#main_txt_lm {
-    color: whitesmoke;
-    text-shadow: 2px 2px 2px black;
-    font-size: 1.3vw;
+.Tc_img_1, .Tc_img_2, .Tc_img_3, .Tc_img_4, .Tc_img_5 {
+    background-size: 100%;
+    width: 30vw;
+    height: 20vw;
+}
+.Tc_img_1 {
+    background-image: url("../img/img/maastricht.png");
+}
+.Tc_img_2 {
+    background-image: url("../img/img/barcelona.png");
+    background-size: 120%;
+}
+.Tc_img_3 {
+    background-image: url("../img/img/londen.png");
+}
+.Tc_img_4 {
+    background-image: url("../img/img/curacao.png");
+}
+
+/* Tickets-page */
+
+.Tc_body {
+    background-image: url("../img/bg_main/tropical_island_7-wallpaper-1920x1080.jpg");
+}
+#Tickets .div3 {
+    display: none;
+}
+.Tc_txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vw;
+}
+.Tc_txt_p {
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
 }
 
 /* Mobile UI'S */
@@ -276,7 +314,7 @@ a:link, a:visited, a:hover, a:active {
 
     /* Home-Mobile */
 
-    .body_home {
+    .body_home, .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1366x768.jpg");
     }
     .nav_bar { /* Nav frame */
@@ -288,7 +326,7 @@ a:link, a:visited, a:hover, a:active {
         align-items: flex-end;
         justify-content: space-evenly;
     }
-    #Home .div1, .div2, .div3, .div4, .div5, .div6, #Stedentrips .div1, .div2, .div3, .div4, .div5, .div6, #Contact .div1, .div2, .div3, .div5, .div6, #last_minute .div1 { /* Nav button's */
+    #Home .div1, .div2, .div3, .div4, .div5, .div6, #Stedentrips .div1, .div2, .div3, .div4, .div5, .div6, #Contact .div1, .div2, .div3, .div5, .div6, #last_minute .div1, #Tickets .div1, .div2, .div4, .div5, .div6 { /* Nav button's */
         height: 6vw;
         width: 15vw;
         margin-left: 0px;
@@ -400,9 +438,36 @@ a:link, a:visited, a:hover, a:active {
     .field_font {
         color: black;
     }
+
+    /* Last-minute-mobile */
+
+    .flex1_lm, .flex2_lm, .flex3_lm {
+        flex-direction: column;
+    }
+    .txt1_lm, .txt2_lm, .img1_lm, .img2_lm, .img3_lm, .img4_lm, .img5_lm {
+        width: 50vw;
+        height: 20vw;
+        background-size: 110%;
+    }
+    .img2_lm {
+        font-size: 2vw;
+        height: 40vw;
+    }
+    #main_txt_lm {
+        font-size: 2.5vw;
+    }
+    .flex1_lm, .flex2_lm, .flex3_lm {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .flex1_lm {
+        margin-top: -75vw;
+    }
+    .flex3_lm {
+        margin-bottom: 10vw;
+    }
 }
 @media (min-height: 800px) { /* stokbrood detection */
-    .body_home, #Contact .C_body {
+    .body_home, #Contact .C_body, #Tickets .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1217x1999.jpg");
     }
     .body_ss {
@@ -411,7 +476,7 @@ a:link, a:visited, a:hover, a:active {
 }
 /* lasagna detection */
 @media only screen and (min-width: 1280px) {
-    .body_home, #Contact .C_body {
+    .body_home, #Contact .C_body, #Tickets .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1366x768.jpg");
     }
     .body_ss {
@@ -419,7 +484,7 @@ a:link, a:visited, a:hover, a:active {
     }
 }
 @media only screen and (min-width: 1366px) {
-    .body_home, #Contact .C_body {
+    .body_home, #Contact .C_body, #Tickets .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1600x900.jpg");
     }
     .body_ss {
@@ -427,7 +492,7 @@ a:link, a:visited, a:hover, a:active {
     }
 }
 @media only screen and (min-width: 1600px) {
-    .body_home, #Contact .C_body {
+    .body_home, #Contact .C_body, #Tickets .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1920x1080.jpg");
     }
     .body_ss {
@@ -435,7 +500,7 @@ a:link, a:visited, a:hover, a:active {
     }
 }
 @media only screen and (min-width: 1920px) {
-    .body_home, #Contact .C_body {
+    .body_home, #Contact .C_body, #Tickets .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2048x1152.jpg");
     }
     .body_ss {
@@ -443,7 +508,7 @@ a:link, a:visited, a:hover, a:active {
     }
 }
 @media only screen and (min-width: 2048px) {
-    .body_home, #Contact .C_body {
+    .body_home, #Contact .C_body, #Tickets .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2400x1350.jpg");
     }
     .body_ss {
@@ -451,7 +516,7 @@ a:link, a:visited, a:hover, a:active {
     }
 }
 @media only screen and (min-height: 900px) {
-    .body_home, #Contact .C_body {
+    .body_home, #Contact .C_body, #Tickets .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2400x1350.jpg");
     }
     .body_ss {
@@ -459,7 +524,7 @@ a:link, a:visited, a:hover, a:active {
     }
 }
 @media only screen and (min-width: 2400px) {
-    .body_home, #Contact .C_body {
+    .body_home, #Contact .C_body, #Tickets .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2560x1440.jpg");
     }
     .body_ss {
@@ -467,7 +532,7 @@ a:link, a:visited, a:hover, a:active {
     }
 }
 @media only screen and (min-width: 2560px) {
-    .body_home, #Contact .C_body {
+    .body_home, #Contact .C_body, #Tickets .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2560x1440.jpg");
     }
     .body_ss {
@@ -475,7 +540,7 @@ a:link, a:visited, a:hover, a:active {
     }
 }
 @media (min-width: 2400px) {
-    .body_home, #Contact .C_body {
+    .body_home, #Contact .C_body, #Tickets .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-6400x2400.jpg");
     }
     .body_ss {

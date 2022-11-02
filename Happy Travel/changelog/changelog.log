@@ -29,6 +29,18 @@ Pages:
 				userinput-mob.: Y
 				mailto-mob.: Y
 				background-mob.: Y
+
+	last Minute:
+				title-pc: Y
+				nav-pc: Y
+				img's-pc: Y
+				footer-pc: Y
+				background-pc: Y
+				title-mob.: Y
+				nav-mob.: Y
+				img's-mob.: Y
+				footer-mob.: Y
+				background-mob.: Y
 		
 
 
@@ -45,7 +57,7 @@ Screen~Compatable:
 Done:
 	Pages:
 		Home: Y
-		Last Minute: N
+		Last Minute: Y
 		Verre Reisen: N
 		Tickets: N
 		Contact: Y

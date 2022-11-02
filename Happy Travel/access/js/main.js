@@ -63,3 +63,11 @@ function Alpen() {
     var1 = "(Deze reis is beschikbaar tot woensdag om 9:00) De Alpen is een prachtig berggebied in Europa! Je kan er allerlei winteractiviteiten doen, op een terrasje gaan zitten, een Westereenequipment kopen, enz. Er valt genoeg te beleven. Ga naar tickets om uw last minute tickets te halen! Dit zijn de Alpen!";
     document.getElementById("main_txt_lm").innerHTML = var1;
 }
+function Lapalma() {
+    var1 = "(Deze reis is beschikbaar tot woensdag om 14:25) Lapalma is een zonnig eiland in Spanje. Je hebt er veel tourisme en het eiland heeft zelft zijn eigen cultuur. Ook heeft het eiland een bijzondere natuur. Zo zijn er planten en dieren die ergens anders zeldzaam zijn. Ga naar tickets om uw last minute tickets te halen! Dit is Lapalma!";
+    document.getElementById("main_txt_lm").innerHTML = var1;
+}
+function Cyprus() {
+    var1 = "(Deze reis is beschikbaar tot maandag om 17:28) Cyprus is een oost-middelandsezee gelegen eiland. Het land ligt tussen Turkije en Syrie in. Het land heeft twee politieken en je kan er mooi buiten zitten. Ook heb je er veel water activiteiten. Ga naar tickets om uw last minute tickets te halen! Dit is Cyprus!";
+    document.getElementById("main_txt_lm").innerHTML = var1;
+}
