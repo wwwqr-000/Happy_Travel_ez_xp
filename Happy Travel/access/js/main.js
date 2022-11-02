@@ -48,7 +48,7 @@ function verzending() {
     }
 }
 function Colombia() {
-    var1 = "(Deze reis is beschikbaar tot morgen om 12:30) 'Colombia is een ideale stad om drugs te dealen!' ~ (Ft. Pablo) Verder is Colombia een mooi en zonnige stad om je vakantie te vieren! Er zijn veel verschillende culturen in Colombia en daardoor valt er veel te beleven. Ga naar tickets om uw last minute ticket te halen! Dis is Colombia!";
+    var1 = "(Deze reis is beschikbaar tot morgen om 12:30) 'Colombia is een ideale stad om drugs te dealen!' ~ (Ft. Pablo) Verder is Colombia een mooi en zonnige stad om je vakantie te vieren! Er zijn veel verschillende culturen in Colombia en daardoor valt er veel te beleven. Ga naar tickets om uw last minute ticket te halen! Dit is Colombia!";
     document.getElementById("main_txt_lm").innerHTML = var1;
 }
 function Zwitserland() {

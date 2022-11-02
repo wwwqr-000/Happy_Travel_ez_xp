@@ -6,7 +6,7 @@
 ::selection {
     background-color: rgba(88, 146, 255, 0.719);
 }
-.body_home, .body_ss, #Contact body, .C_body, #Tickets {
+.body_home, .body_ss, #Contact body, .C_body, #Tickets .Tc_body {
     background-image: url("../img/bg_main/tropical_island_7-wallpaper-1920x1080.jpg");
     background-size: cover;
     background-size: auto;
@@ -16,7 +16,7 @@
 p {
     text-align: center;
 }
-.top_title {
+.top_title, .mid_title {
     font-family: Titillium Web, serif;
     font-size: 30px;
     font-weight: 210;
@@ -72,7 +72,7 @@ a:link, a:visited, a:hover, a:active {
     justify-content: center;
     align-items: center;
 }
-.mini_content, .thumb_txt, .mini_img_txt_home, .main_content_ss_2, .mini_content_ss_mobile_box, .contact_field, .flex1_lm, .flex2_lm, .flex3_lm, .Tc_txt { /* Background-color text fields */
+.mini_content, .thumb_txt, .mini_img_txt_home, .main_content_ss_2, .mini_content_ss_mobile_box, .contact_field, .flex1_lm, .flex2_lm, .flex3_lm, .Tc_imgs { /* Background-color text fields */
     background-color: rgba(0, 0, 0, 0.336);
 }
 .ss_imgs_mobile {
@@ -163,7 +163,7 @@ a:link, a:visited, a:hover, a:active {
     height: 20vw;
     background-size: 110%;
 }
-.ss_thumb1:hover, .ss_thumb2:hover, .ss_thumb3:hover, #main_content_ss_1:hover, #main_content_ss_3:hover, .ss_img_Maastricht:hover, .ss_img_Barcelona:hover, .ss_img_Londen:hover, .ss_img_Curacao:hover, .ss_img_NY:hover, .txt1_lm:hover, .txt2_lm:hover, .img1_lm:hover, .img3_lm:hover, .img4_lm:hover, .img5_lm:hover {
+.ss_thumb1:hover, .ss_thumb2:hover, .ss_thumb3:hover, #main_content_ss_1:hover, #main_content_ss_3:hover, .ss_img_Maastricht:hover, .ss_img_Barcelona:hover, .ss_img_Londen:hover, .ss_img_Curacao:hover, .ss_img_NY:hover, .txt1_lm:hover, .txt2_lm:hover, .img1_lm:hover, .img3_lm:hover, .img4_lm:hover, .img5_lm:hover, .Tc_img_1:hover, .Tc_img_2:hover, .Tc_img_3:hover, .Tc_img_4:hover, .Tc_img_5:hover, .Tc_img_5:hover {
     border: 2px solid black;
 }
 .ss_thumb1, .ss_img_Maastricht {
@@ -215,6 +215,10 @@ a:link, a:visited, a:hover, a:active {
 #last_minute .div4 {
     display: none;
 }
+#main_txt_lm {
+    font-size: 1.5vw;
+    color: whitesmoke;
+}
 .flex1_lm, .flex2_lm, .flex3_lm {
     display: flex;
     justify-content: space-around;
@@ -234,7 +238,6 @@ a:link, a:visited, a:hover, a:active {
     border-top-right-radius: 2vw;
     border-bottom-left-radius: 2vw;
     border-bottom-right-radius: 2vw;
-    /* border: 2px solid green; */
 }
 .img5_lm, .img4_lm {
     margin-bottom: 2vw;
@@ -265,10 +268,32 @@ a:link, a:visited, a:hover, a:active {
     background-image: url("../img/img/cyprus.png");
     background-size: 120%;
 }
-.Tc_img_1, .Tc_img_2, .Tc_img_3, .Tc_img_4, .Tc_img_5 {
+
+/* Tickets-page */
+
+.Tc_body {
+    background-image: url("../img/bg_main/tropical_island_7-wallpaper-6400x2400.jpg");
+    background-color: gray;
+}
+#Tickets .div3 {
+    display: none;
+}
+.Tc_imgs, .Tc_imgs_2 {
+    margin-top: 11vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 1.5vw;
+    border-bottom-right-radius: 1.5vw;
+    border-top-right-radius: 1.5vw;
+    border-top-left-radius: 1.5vw;
+}
+.Tc_img_1, .Tc_img_2, .Tc_img_3, .Tc_img_4, .Tc_img_5, .Tc_img_5, .Tc_img_6, .Tc_img_7, .Tc_img_8 {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
     background-size: 100%;
-    width: 30vw;
-    height: 20vw;
+    width: 18vw;
+    height: 9vw;
 }
 .Tc_img_1 {
     background-image: url("../img/img/maastricht.png");
@@ -283,29 +308,11 @@ a:link, a:visited, a:hover, a:active {
 .Tc_img_4 {
     background-image: url("../img/img/curacao.png");
 }
-
-/* Tickets-page */
-
-.Tc_body {
-    background-image: url("../img/bg_main/tropical_island_7-wallpaper-1920x1080.jpg");
+.Tc_img_5 {
+    background-image: url("../img/img/alpen.png");
 }
-#Tickets .div3 {
-    display: none;
-}
-.Tc_txt {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 20vw;
-}
-.Tc_txt_p {
-    justify-content: center;
-    align-items: center;
-    border-top-left-radius: 2vw;
-    border-top-right-radius: 2vw;
-    border-bottom-left-radius: 2vw;
-    border-bottom-right-radius: 2vw;
+.Tc_img_6 {
+    background-image: url("../");
 }
 
 /* Mobile UI'S */
