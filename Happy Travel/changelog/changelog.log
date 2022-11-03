@@ -47,8 +47,8 @@ Pages:
 Screen~Compatable:
 			Pages:
 				Home: Y
-				Last Minute: N
-				Verre Reisen: N
+				Last Minute: Y
+				Verre Reisen: Y
 				Tickets: N
 				Contact: Y
 				Stedentrips: Y
@@ -58,7 +58,7 @@ Done:
 	Pages:
 		Home: Y
 		Last Minute: Y
-		Verre Reisen: N
+		Verre Reisen: Y
 		Tickets: N
 		Contact: Y
 		Stedentrips: Y

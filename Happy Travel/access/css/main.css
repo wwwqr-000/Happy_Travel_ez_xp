@@ -42,7 +42,7 @@ p {
     background-color: rgba(245, 245, 245, 0.4);
     margin-bottom: 1.69%;
 }
-.div1, #Home .div1, .div2, .div3, .div4, .div5, .div6, #Stedentrips .div1, .div2, .div3, .div4, .div6, #last_minute .div1, .div2, .div3, .div4, .div5, .div6, #Tickets .div1, .div2, .div4, .div5, .div6, #Verre_reizen .div1, .div3, .div4, .div5, .div6 { /* Nav Div's + page control */
+.div1, #Home .div1, .div2, .div3, .div4, .div5, .div6, #Stedentrips .div1, .div2, .div3, .div4, .div6, #last_minute .div1, .div2, .div3, .div4, .div5, .div6, #Tickets .div1, .div2, .div4, .div5, .div6, #Verre_reizen .div1, .div3, .div4, .div5, .div6, #Zonvakanties .div2, .div3, .div4, .div5, .div6 { /* Nav Div's + page control */
     display: flex;
     color: white;
     text-shadow: 3px 3px 3px black;
@@ -69,7 +69,7 @@ p {
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
- #Home a:hover, #Stedentrips a:hover, #Contact a:hover, #last_minute a:hover, #Tickets a:hover, #Verre_reizen a:hover {
+ #Home a:hover, #Stedentrips a:hover, #Contact a:hover, #last_minute a:hover, #Tickets a:hover, #Verre_reizen a:hover, #Zonvakanties a:hover {
     background-color: rgba(74, 74, 255, 0.863);
 }
 .mini_content { /* Mini Content */
@@ -342,12 +342,24 @@ s {
 }
 .Tc_img_9 {
     background-image: url("../img/img/zwitserland.png");
+    background-size: 107%;
 }
 .Tc_img_10 {
     background-image: url("../img/img/alpen.png");
+    background-size: 107%;
 }
 .Tc_img_11 {
     background-image: url("../img/img/cyprus.png");
+    background-size: 107%;
+}
+.Tc_img_12 {
+    background-image: url("../img/img/india.png");
+}
+.Tc_img_13 {
+    background-image: url("../img/img/japan.png");
+}
+.Tc_img_14 {
+    background-image: url("../img/img/nieuw_zeeland.png");
 }
 .Tc_end_div {
     margin-top: 22vw;
@@ -395,6 +407,12 @@ s {
     width: 70vw;
 }
 
+/* Zonvakanties-page */
+
+#Zonvakanties .div1 {
+    display: none;
+}
+
 /* Mobile UI'S */
 
 @media only screen and (max-width: 767px)  {
@@ -413,7 +431,7 @@ s {
         align-items: flex-end;
         justify-content: space-evenly;
     }
-    #Home .div1, .div2, .div3, .div4, .div5, .div6, #Stedentrips .div1, .div2, .div3, .div4, .div5, .div6, #Contact .div1, .div2, .div3, .div5, .div6, #last_minute .div1, #Tickets .div1, .div2, .div4, .div5, .div6, #Verre_reizen .div1, .div3, .div4, .div5, .div6 { /* Nav button's */
+    #Home .div1, .div2, .div3, .div4, .div5, .div6, #Stedentrips .div1, .div2, .div3, .div4, .div5, .div6, #Contact .div1, .div2, .div3, .div5, .div6, #last_minute .div1, #Tickets .div1, .div2, .div4, .div5, .div6, #Verre_reizen .div1, .div3, .div4, .div5, .div6, #Zonvakanties .div2, .div3, .div4, .div5, .div6 { /* Nav button's */
         height: 6vw;
         width: 15vw;
         margin-left: 0px;
@@ -472,7 +490,7 @@ s {
     .p_ss {
         font-size: 5.5vw;
     }
-    .body_ss {
+    .body_ss, #Zonvakanties .Zv_body {
         background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-1217x1999.jpg");
     }
     .ss_imgs, .main_content_ss {
@@ -594,7 +612,7 @@ s {
     .body_home, #Contact .C_body, #Tickets .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1217x1999.jpg");
     }
-    .body_ss {
+    .body_ss, #Zonvakanties .Zv_body {
         background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-1217x1999.jpg");
     }
 }
@@ -603,7 +621,7 @@ s {
     .body_home, #Contact .C_body, #Tickets .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1366x768.jpg");
     }
-    .body_ss {
+    .body_ss, #Zonvakanties .Zv_body {
         background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-1366x768.jpg");
     }
 }
@@ -611,7 +629,7 @@ s {
     .body_home, #Contact .C_body, #Tickets .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1600x900.jpg");
     }
-    .body_ss {
+    .body_ss, #Zonvakanties .Zv_body {
         background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-1600x900.jpg");
     }
 }
@@ -619,7 +637,7 @@ s {
     .body_home, #Contact .C_body, #Tickets .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-1920x1080.jpg");
     }
-    .body_ss {
+    .body_ss, #Zonvakanties .Zv_body {
         background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-1920x1080.jpg");
     }
 }
@@ -627,7 +645,7 @@ s {
     .body_home, #Contact .C_body, #Tickets .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2048x1152.jpg");
     }
-    .body_ss {
+    .body_ss, #Zonvakanties .Zv_body {
         background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-2048x1152.jpg");
     }
 }
@@ -635,7 +653,7 @@ s {
     .body_home, #Contact .C_body, #Tickets .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2400x1350.jpg");
     }
-    .body_ss {
+    .body_ss, #Zonvakanties .Zv_body {
         background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-2400x1350.jpg");
     }
 }
@@ -643,7 +661,7 @@ s {
     .body_home, #Contact .C_body, #Tickets .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2400x1350.jpg");
     }
-    .body_ss {
+    .body_ss, #Zonvakanties .Zv_body {
         background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-2400x1350.jpg");
     }
 }
@@ -651,7 +669,7 @@ s {
     .body_home, #Contact .C_body, #Tickets .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2560x1440.jpg");
     }
-    .body_ss {
+    .body_ss, #Zonvakanties .Zv_body {
         background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-2560x1440.jpg");
     }
 }
@@ -659,7 +677,7 @@ s {
     .body_home, #Contact .C_body, #Tickets .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-2560x1440.jpg");
     }
-    .body_ss {
+    .body_ss, #Zonvakanties .Zv_body {
         background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-2560x1440.jpg");
     }
 }
@@ -667,7 +685,7 @@ s {
     .body_home, #Contact .C_body, #Tickets .Tc_body {
         background-image: url("../img/bg_main/tropical_island_7-wallpaper-6400x2400.jpg");
     }
-    .body_ss {
+    .body_ss, #Zonvakanties .Zv_body {
         background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-5120x3200.jpg");
     }
 }
