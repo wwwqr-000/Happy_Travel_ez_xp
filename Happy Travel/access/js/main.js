@@ -78,3 +78,11 @@ function India() {
     var1 = "India is een groot land met grote en vele culturen. Het land heeft ook veel geloven. Je kan er ook komen voor de natuur die er ontdanks de drukke steden ook is. Al vanaf &euro;490 kunt u voor een midweek in dit gebouw doorbrengen. Ga naar tickets om uw reis te boeken! Dit is India!";
     document.getElementById("mini_content_ss").innerHTML = var1;
 }
+function Japan() {
+    var1 = "Japan is een land met diverse geschiedenis. Zo zie je ook op deze afbeeldingen dat er vele tempels zijn. Hier kunt u lekker genieten van de mooie stad Tokio. U kan hier al vanaf &euro;468 per twee dagen overnachten. Dit is Japan!";
+    document.getElementById("mini_content_ss").innerHTML = var1;
+}
+function NZ() {
+    var1 = "Nieuw Zeeland ligt ver weg van Nederland. Daardoor heb je er dingen die je nog nooit hebt gezien. Nieuw Zeeland ligt bijvoorbeeld in de Grote Oceaan. Het klimaat kan je vergelijken met het klimaat van de waddeneilanden in Nederland. U verblijft in een berghuisje dat dicht in de buurt van een dorpje ligt. Al vanaf &euro;560 kan u heerlijk genieten van de natuur en bergen. Dit is Nieuw Zeeland!";
+    document.getElementById("mini_content_ss").innerHTML = var1;
+}
