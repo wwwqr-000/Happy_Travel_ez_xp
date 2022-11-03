@@ -1,3 +1,4 @@
+//Ik weet dat dit niet wordt meegenomen in het cijfer, maar ik heb hieronder veel geleerd en kon niet wachten om hiermee te beginnen!
 //Stedentrips
 function Barcelona() {
     var1 = "Barcelona ligt in Spanje en is een zonnige stad met veel inwoners. Geniet van het mooie weer, of cruse lekker met een boot door het water! Er valt ook genoeg te shoppen en te ontdekken! Dit is Barcelona. (Gidswandeling inbegrepen)";
