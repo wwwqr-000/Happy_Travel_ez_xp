@@ -537,8 +537,12 @@ s {
     .p_ss {
         font-size: 5.5vw;
     }
-    .body_ss, #Zonvakanties .Zv_body {
+    .body_ss {
         background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-1217x1999.jpg");
+    }
+    #Zonvakanties .Zv_body {
+        background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-1217x1999.jpg");
+        background-size: 200%;
     }
     .ss_imgs, .main_content_ss {
         display: none;
@@ -653,6 +657,46 @@ s {
     }
     #mini_content_ss {
         font-size: 3vw;
+    }
+
+    /* Zonvakanties-mobile */
+
+    .Zv_imgrow_1, .Zv_imgrow_2, .Zv_imgrow_3 {
+        flex-direction: column;
+        width: 50vw;
+        height: 100%;
+    }
+    .Zv_imgrow_1, .Zv_imgrow_2, .Zv_imgrow_3 {
+        position: relative;
+        right: -35vw;
+        top: -70vw;
+    }
+    .Zv_img_blank {
+        display: none;
+    }
+    #Zonvakanties .mini_content_txt_big {
+        font-size: 4vw;
+    }
+    .Zv_img_1, .Zv_img_txt, .Zv_img_2, .Zv_img_3 {
+        margin-bottom: 5vw;
+    }
+    .Zv_img_1, .Zv_img_2, .Zv_img_txt, .Zv_img_3, .Zv_img_4 {
+        width: 70vw;
+        height: 50vw;
+        background-size: 120%;
+    }
+    .Zv_img_4 {
+        margin-bottom: -50vw;
+        background-size: 135%;
+    }
+    #Zonvakanties .mini_content_txt_medium {
+        font-size: 2.3vw;
+    }
+    .Zv_div_in_div {
+        margin-top: 3vw;
+        height: 30vw;
+        width: 60vw;
+        margin-right: 5vw;
     }
 }
 @media (min-height: 800px) { /* stokbrood detection */
