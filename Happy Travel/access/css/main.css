@@ -455,6 +455,10 @@ s {
 .Zv_img_3 {
     background-image: url("../img/img/punta_cana.png");
 }
+.Zv_img_4 {
+    background-image: url("../img/img/australie.png");
+    background-size: 120%;
+}
 
 /* Mobile UI'S */
 

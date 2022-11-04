@@ -87,3 +87,6 @@ function NZ() {
     var1 = "Nieuw Zeeland ligt ver weg van Nederland. Daardoor heb je er dingen die je nog nooit hebt gezien. Nieuw Zeeland ligt bijvoorbeeld in de Grote Oceaan. Het klimaat kan je vergelijken met het klimaat van de waddeneilanden in Nederland. U verblijft in een berghuisje dat dicht in de buurt van een dorpje ligt. Al vanaf &euro;560 kan u heerlijk genieten van de natuur en bergen. Dit is Nieuw Zeeland!";
     document.getElementById("mini_content_ss").innerHTML = var1;
 }
+function gtt() {
+    window.open("tickets.html", "_self");
+}
