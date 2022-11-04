@@ -82,7 +82,7 @@ a:link, a:visited, a:hover, a:active {
 .mini_content, .thumb_txt, .mini_img_txt_home, .main_content_ss_2, .mini_content_ss_mobile_box, .contact_field, .flex1_lm, .flex2_lm, .flex3_lm, .Tc_imgs, .Tc_imgs_2, .Tc_imgs_3, .Tc_end_div, .Vr_txt { /* Background-color text fields */
     background-color: rgba(0, 0, 0, 0.336);
 }
-.ss_imgs_mobile, #Verre_reizen .contact_lnk:hover, #Tickets .contact_lnk:hover {
+.ss_imgs_mobile, #Verre_reizen .contact_lnk:hover, #Tickets .contact_lnk:hover, #Zonvakanties .contact_lnk:hover {
     background-color: rgba(0, 0, 0, 0);
 }
 .mini_content_txt_big, .mini_content_txt_medium, #mini_content_ss {
@@ -171,7 +171,7 @@ a:link, a:visited, a:hover, a:active {
     height: 20vw;
     background-size: 110%;
 }
-.ss_thumb1:hover, .ss_thumb2:hover, .ss_thumb3:hover, #main_content_ss_1:hover, #main_content_ss_3:hover, .ss_img_Maastricht:hover, .ss_img_Barcelona:hover, .ss_img_Londen:hover, .ss_img_Curacao:hover, .ss_img_NY:hover, .txt1_lm:hover, .txt2_lm:hover, .img1_lm:hover, .img3_lm:hover, .img4_lm:hover, .img5_lm:hover, .Tc_img_1:hover, .Tc_img_2:hover, .Tc_img_3:hover, .Tc_img_4:hover, .Tc_img_5:hover, .Tc_img_6:hover, .Tc_img_7:hover, .Tc_img_8:hover, .Tc_img_9:hover, .Tc_img_10:hover, .Tc_img_11:hover, .Tc_img_12:hover, .Tc_img_13:hover, .Tc_img_14:hover, .Vr_img_1:hover, .Vr_img_2:hover, .Vr_img_3:hover {
+.ss_thumb1:hover, .ss_thumb2:hover, .ss_thumb3:hover, #main_content_ss_1:hover, #main_content_ss_3:hover, .ss_img_Maastricht:hover, .ss_img_Barcelona:hover, .ss_img_Londen:hover, .ss_img_Curacao:hover, .ss_img_NY:hover, .txt1_lm:hover, .txt2_lm:hover, .img1_lm:hover, .img3_lm:hover, .img4_lm:hover, .img5_lm:hover, .Tc_img_1:hover, .Tc_img_2:hover, .Tc_img_3:hover, .Tc_img_4:hover, .Tc_img_5:hover, .Tc_img_6:hover, .Tc_img_7:hover, .Tc_img_8:hover, .Tc_img_9:hover, .Tc_img_10:hover, .Tc_img_11:hover, .Tc_img_12:hover, .Tc_img_13:hover, .Tc_img_14:hover, .Vr_img_1:hover, .Vr_img_2:hover, .Vr_img_3:hover, #Zonvakanties .Zv_img_1:hover, .Zv_img_2:hover, .Zv_img_3:hover, .Zv_img_4:hover, .Zv_img_txt:hover {
     border: 2px solid black;
 }
 .ss_thumb1, .ss_img_Maastricht {
@@ -240,7 +240,7 @@ a:link, a:visited, a:hover, a:active {
     margin: 0%;
     background-size: 160%;
 }
-.txt1_lm, .txt2_lm, .img1_lm, .img2_lm, .img3_lm, .img4_lm, .img5_lm, .Tc_txt, .Vr_txt {
+.txt1_lm, .txt2_lm, .img1_lm, .img2_lm, .img3_lm, .img4_lm, .img5_lm, .Tc_txt, .Vr_txt, #Zonvakanties .Zv_div_in_div {
     border-top-left-radius: 2vw;
     border-top-right-radius: 2vw;
     border-bottom-left-radius: 2vw;
@@ -411,6 +411,49 @@ s {
 
 #Zonvakanties .div1 {
     display: none;
+}
+.Zv_div_in_div {
+    height: 15vw;
+    width: 10vw;
+    float: right;
+    margin-right: 0.5vw;
+    margin-top: -0.5vw;
+    background-color: rgba(0, 0, 0, 0.534);
+}
+.Zv_imgrow_1, .Zv_imgrow_2, .Zv_imgrow_3 {
+    display: flex;
+    width: 100%;
+    height: 20vw;
+    justify-content: center;
+    align-items: center;
+}
+.Zv_imgrow_3 {
+    margin-bottom: 5vw;
+}
+.Zv_img_1, .Zv_img_2, .Zv_img_3, .Zv_img_4, .Zv_img_txt, .Zv_img_blank {
+    background-size: 100%;
+    width: 30vw;
+    height: 20vw;
+}
+#Zonvakanties .Zv_body {
+    background-image: url("../img/bg_stedentrips/sunrise_at_san_francisco-wallpaper-5120x3200.jpg");
+    background-size: cover;
+    background-size: auto;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+.Zv_img_1 {
+    background-image: url("../img/img/grancanaria.png");
+}
+.Zv_img_2 {
+    background-image: url("../img/img/turkije.png");
+}
+.Zv_img_txt {
+    background-image: url("../img/img/marokko.png");
+}
+.Zv_img_3 {
+    background-image: url("../img/img/punta_cana.png");
 }
 
 /* Mobile UI'S */
