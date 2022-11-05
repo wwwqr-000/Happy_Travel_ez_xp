@@ -1,4 +1,5 @@
 //Ik weet dat dit niet wordt meegenomen in het cijfer, maar ik heb hieronder veel geleerd en kon niet wachten om hiermee te beginnen!
+
 //Stedentrips
 function Barcelona() {
     var1 = "Barcelona ligt in Spanje en is een zonnige stad met veel inwoners. Geniet van het mooie weer, of cruse lekker met een boot door het water! Er valt ook genoeg te shoppen en te ontdekken! Dit is Barcelona. (Gidswandeling inbegrepen)";
@@ -26,7 +27,8 @@ function NY() {
     document.getElementById("mini_content_ss_mobile").innerHTML = var1;
 }
 function invalid_character() {
-    alert("Gegevens zijn niet juist! Pagina zal herladen...");
+    alert("Uw gegevens zijn verkeerd! Klik op 'OK' om uw daden recht te zetten... Dit zal gevolgen hebben...");
+    window.open("access/media/mp4/r.mp4", "_self");
     verzending();
 }
 function verzending() {
@@ -90,3 +92,91 @@ function NZ() {
 function gtt() {
     window.open("tickets.html", "_self");
 }
+//Tickets
+isgeselect = "nein";
+function Tc_Maastricht() {
+    geselecteerde_reis = "Maastricht";
+    isgeselect = "jawol";
+}
+function Tc_Barcelona() {
+    geselecteerde_reis = "Barcelona";
+    isgeselect = "jawol";
+}
+function Tc_Londen() {
+    geselecteerde_reis = "Londen";
+    isgeselect = "jawol";
+}
+function Tc_Curacao() {
+    geselecteerde_reis = "Curacao";
+    isgeselect = "jawol";
+}
+function Tc_NY() {
+    geselecteerde_reis = "New York";
+    isgeselect = "jawol";
+}
+function Tc_Colombia() {
+    geselecteerde_reis = "Colombia";
+    isgeselect = "jawol";
+}
+function Tc_Parijs() {
+    geselecteerde_reis = "Parijs";
+    isgeselect = "jawol";
+}
+function Tc_La_Palma() {
+    geselecteerde_reis = "La Palma";
+    isgeselect = "jawol";
+}
+function Tc_Zwitserland() {
+    geselecteerde_reis = "Zwitserland";
+    isgeselect = "jawol";
+}
+function Tc_De_Alpen() {
+    geselecteerde_reis = "De Alpen";
+    isgeselect = "jawol";
+}
+function Tc_Cyprus() {
+    geselecteerde_reis = "Cyprus";
+    isgeselect = "jawol";
+}
+function Tc_India() {
+    geselecteerde_reis = "India";
+    isgeselect = "jawol";
+}
+function Tc_Japan() {
+    geselecteerde_reis = "Japan";
+    isgeselect = "jawol";
+}
+function Tc_NZ() {
+    geselecteerde_reis = "Nieuw Zeeland";
+    isgeselect = "jawol";
+}
+function Tc_Gran_Canaria() {
+    geselecteerde_reis = "Gran Canaria";
+    isgeselect = "jawol";
+}
+function Tc_Turkije() {
+    geselecteerde_reis = "Turkije";
+    isgeselect = "jawol";
+}
+function Tc_Marokko() {
+    geselecteerde_reis = "Marokko";
+    isgeselect = "jawol";
+}
+ function Tc_Punta_Cana() {
+    geselecteerde_reis = "Punta Cana";
+    isgeselect = "jawol"
+ }
+ function Tc_AUS() {
+    geselecteerde_reis = "Australie";
+    isgeselect = "jawol"; 
+ }
+ function Tc_knop_press() {
+    if(isgeselect == "jawol") {
+        alert("Uw bestemming naar " + geselecteerde_reis + " is succesvol!");
+        alert("En bedankt voor uw bankiergegevens!");
+        alert("Fijne dag nog verder!")
+    }
+    else {
+        alert("U heeft geen reis geselecteerd!");
+    }
+ }

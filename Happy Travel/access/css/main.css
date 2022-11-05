@@ -6,12 +6,16 @@
 ::selection {
     background-color: rgba(88, 146, 255, 0.719);
 }
-.body_home, .body_ss, #Contact body, .C_body, #Tickets .Tc_body {
+.body_home, .body_ss, #Contact body, .C_body {
     background-image: url("../img/bg_main/tropical_island_7-wallpaper-1920x1080.jpg");
     background-size: cover;
     background-size: auto;
     max-width: 100%;
     background-repeat: no-repeat;
+}
+#Tickets .Tc_body {
+    background-size: 280%;
+    background-image: url("../img/bg_main/tropical_island_7-wallpaper-2048x1152.jpg");
 }
 p {
     text-align: center;
@@ -79,7 +83,7 @@ a:link, a:visited, a:hover, a:active {
     justify-content: center;
     align-items: center;
 }
-.mini_content, .thumb_txt, .mini_img_txt_home, .main_content_ss_2, .mini_content_ss_mobile_box, .contact_field, .flex1_lm, .flex2_lm, .flex3_lm, .Tc_imgs, .Tc_imgs_2, .Tc_imgs_3, .Tc_end_div, .Vr_txt { /* Background-color text fields */
+.mini_content, .thumb_txt, .mini_img_txt_home, .main_content_ss_2, .mini_content_ss_mobile_box, .contact_field, .flex1_lm, .flex2_lm, .flex3_lm, .Tc_imgs, .Tc_imgs_2, .Tc_imgs_3, .Tc_end_div, .Tc_imgs_4, .Tc_verzenden_button,  .Vr_txt { /* Background-color text fields */
     background-color: rgba(0, 0, 0, 0.336);
 }
 .ss_imgs_mobile, #Verre_reizen .contact_lnk:hover, #Tickets .contact_lnk:hover, #Zonvakanties .contact_lnk:hover {
@@ -171,7 +175,7 @@ a:link, a:visited, a:hover, a:active {
     height: 20vw;
     background-size: 110%;
 }
-.ss_thumb1:hover, .ss_thumb2:hover, .ss_thumb3:hover, #main_content_ss_1:hover, #main_content_ss_3:hover, .ss_img_Maastricht:hover, .ss_img_Barcelona:hover, .ss_img_Londen:hover, .ss_img_Curacao:hover, .ss_img_NY:hover, .txt1_lm:hover, .txt2_lm:hover, .img1_lm:hover, .img3_lm:hover, .img4_lm:hover, .img5_lm:hover, .Tc_img_1:hover, .Tc_img_2:hover, .Tc_img_3:hover, .Tc_img_4:hover, .Tc_img_5:hover, .Tc_img_6:hover, .Tc_img_7:hover, .Tc_img_8:hover, .Tc_img_9:hover, .Tc_img_10:hover, .Tc_img_11:hover, .Tc_img_12:hover, .Tc_img_13:hover, .Tc_img_14:hover, .Vr_img_1:hover, .Vr_img_2:hover, .Vr_img_3:hover, #Zonvakanties .Zv_img_1:hover, .Zv_img_2:hover, .Zv_img_3:hover, .Zv_img_4:hover, .Zv_img_txt:hover {
+.ss_thumb1:hover, .ss_thumb2:hover, .ss_thumb3:hover, #main_content_ss_1:hover, #main_content_ss_3:hover, .ss_img_Maastricht:hover, .ss_img_Barcelona:hover, .ss_img_Londen:hover, .ss_img_Curacao:hover, .ss_img_NY:hover, .txt1_lm:hover, .txt2_lm:hover, .img1_lm:hover, .img3_lm:hover, .img4_lm:hover, .img5_lm:hover, .Tc_img_1:hover, .Tc_img_2:hover, .Tc_img_3:hover, .Tc_img_4:hover, .Tc_img_5:hover, .Tc_img_6:hover, .Tc_img_7:hover, .Tc_img_8:hover, .Tc_img_9:hover, .Tc_img_10:hover, .Tc_img_11:hover, .Tc_img_12:hover, .Tc_img_13:hover, .Tc_img_14:hover, .Tc_img_15:hover, .Tc_img_16:hover, .Tc_img_17:hover, .Tc_img_18:hover, .Tc_img_19:hover, .Vr_img_1:hover, .Vr_img_2:hover, .Vr_img_3:hover, #Zonvakanties .Zv_img_1:hover, .Zv_img_2:hover, .Zv_img_3:hover, .Zv_img_4:hover, .Zv_img_txt:hover {
     border: 2px solid black;
 }
 .ss_thumb1, .ss_img_Maastricht {
@@ -240,7 +244,7 @@ a:link, a:visited, a:hover, a:active {
     margin: 0%;
     background-size: 160%;
 }
-.txt1_lm, .txt2_lm, .img1_lm, .img2_lm, .img3_lm, .img4_lm, .img5_lm, .Tc_txt, .Vr_txt, #Zonvakanties .Zv_div_in_div {
+.txt1_lm, .txt2_lm, .img1_lm, .img2_lm, .img3_lm, .img4_lm, .img5_lm, .Tc_txt, .Tc_div_in_div, .Tc_input, .Vr_txt, #Zonvakanties .Zv_div_in_div {
     border-top-left-radius: 2vw;
     border-top-right-radius: 2vw;
     border-bottom-left-radius: 2vw;
@@ -291,7 +295,7 @@ a:link, a:visited, a:hover, a:active {
 #Tc_titles_1 {
     margin-bottom: -4vw;
 }
-.Tc_imgs, .Tc_imgs_2, .Tc_imgs_3 {
+.Tc_imgs, .Tc_imgs_2, .Tc_imgs_3, .Tc_imgs_4 {
     margin-top: 11vw;
     display: flex;
     justify-content: space-around;
@@ -302,7 +306,7 @@ a:link, a:visited, a:hover, a:active {
     border-top-left-radius: 1.5vw;
     margin-top: 4vw;
 }
-.Tc_img_1, .Tc_img_2, .Tc_img_3, .Tc_img_4, .Tc_img_5, .Tc_img_5, .Tc_img_6, .Tc_img_7, .Tc_img_8, .Tc_img_9, .Tc_img_10, .Tc_img_11, .Tc_img_12, .Tc_img_13, .Tc_img_14 {
+.Tc_img_1, .Tc_img_2, .Tc_img_3, .Tc_img_4, .Tc_img_5, .Tc_img_5, .Tc_img_6, .Tc_img_7, .Tc_img_8, .Tc_img_9, .Tc_img_10, .Tc_img_11, .Tc_img_12, .Tc_img_13, .Tc_img_14, .Tc_img_15, .Tc_img_16, .Tc_img_17, .Tc_img_18, .Tc_img_19 {
     margin-top: 1vw;
     margin-bottom: 1vw;
     background-size: 100%;
@@ -361,14 +365,56 @@ s {
 .Tc_img_14 {
     background-image: url("../img/img/nieuw_zeeland.png");
 }
+.Tc_img_15 {
+    background-image: url("../img/img/grancanaria.png");
+}
+.Tc_img_16 {
+    background-image: url("../img/img/turkije.png");
+}
+.Tc_img_17 {
+    background-image: url("../img/img/marokko.png");
+}
+.Tc_img_18 {
+    background-image: url("../img/img/punta_cana.png");
+}
+.Tc_img_19 {
+    background-image: url("../img/img/australie.png");
+}
 .Tc_end_div {
-    margin-top: 22vw;
+    margin-top: 2vw;
     width: 100%;
     height: 50vw;
     border-bottom-left-radius: 1.5vw;
     border-bottom-right-radius: 1.5vw;
     border-top-right-radius: 1.5vw;
     border-top-left-radius: 1.5vw;
+    justify-content: center;
+    align-items: center;
+}
+.Tc_div_in_div {
+    width: 20vw;
+    height: 10vw;
+    background-color: rgba(214, 214, 214, 0.685);
+    position: relative;
+    top: 6vw;
+    left: 38.6vw;
+    justify-content: center;
+    align-items: center;
+}
+.input_Tc_width {
+    width: 10vw;
+    height: 1.4vw;
+}
+.Tc_verzenden_button {
+    margin-top: 1vw;
+    margin-left: 7.2vw;
+    height: 2vw;
+    width: 6vw;
+    justify-content: center;
+    align-items: center;
+}
+.Tc_marginbox {
+    margin-bottom: 20vw;
 }
 
 /* Verre-Reizen-page */
@@ -694,9 +740,35 @@ s {
     }
     .Zv_div_in_div {
         margin-top: 3vw;
-        height: 30vw;
+        height: 20vw;
         width: 60vw;
         margin-right: 5vw;
+    }
+
+    /* Tickets-mobile */
+
+    #Tickets .Tc_body {
+        background-size: 200%;
+        background-image: url("../img/bg_main/tropical_island_7-wallpaper-1217x1999.jpg");
+    }
+    #Tickets th {
+        font-size: 2.5vw;
+    }
+    .Tc_div_in_div {
+        width: 50vw;
+        height: 40vw;
+        left: 20vw;
+    }
+    .input_Tc_width {
+        height: 3vw;
+        width: 20vw;
+    }
+    #Tickets .mini_content_txt_medium {
+        font-size: 3vw;
+    }
+    .Tc_verzenden_button {
+        width: 30vw;
+        height: 5vw;
     }
 }
 @media (min-height: 800px) { /* stokbrood detection */
