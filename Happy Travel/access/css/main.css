@@ -6,7 +6,7 @@
 ::selection {
     background-color: rgba(88, 146, 255, 0.719);
 }
-.body_home, .body_ss, #Contact body, .C_body {
+.body_home, .body_ss {
     background-image: url("../img/bg_main/tropical_island_7-wallpaper-1920x1080.jpg");
     background-size: cover;
     background-size: auto;
@@ -16,6 +16,10 @@
 #Tickets .Tc_body {
     background-size: 280%;
     background-image: url("../img/bg_main/tropical_island_7-wallpaper-2048x1152.jpg");
+}
+#Home .C_body {
+    background-image: url("../img/bg_main/tropical_island_7-wallpaper-2048x1152.jpg");
+    background-size: 140%;
 }
 p {
     text-align: center;
